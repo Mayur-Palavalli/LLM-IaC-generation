@@ -1,0 +1,386 @@
+0
+""
+""
+""
+"E3002 Additional properties are not allowed ('ServiceId' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate4.json:1:1305
+
+E3003 'ServiceName' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate4.json:1:1290
+"
+""
+"E3002 Additional properties are not allowed ('AutoDeploymentsEnabled' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate6.json:1:1087
+
+E3002 Additional properties are not allowed ('<- Correct URI in required format ->' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate6.json:1:1029
+"
+""
+""
+""
+""
+""
+"E1020 'SubnetId1' is not one of ['OperatorEmail', 'WebServerSecurityGroup', 'WebServerInstanceRole', 'WebServerInstanceProfile', 'ElasticLoadBalancer', 'LaunchConfiguration', 'AutoScalingGroup', 'ScalingPolicy', 'CloudWatchAlarm', 'ScalingNotificationTopic', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate12.json:1:1548
+
+E1020 'SubnetId2' is not one of ['OperatorEmail', 'WebServerSecurityGroup', 'WebServerInstanceRole', 'WebServerInstanceProfile', 'ElasticLoadBalancer', 'LaunchConfiguration', 'AutoScalingGroup', 'ScalingPolicy', 'CloudWatchAlarm', 'ScalingNotificationTopic', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate12.json:1:1570
+
+E1020 'SubnetId1' is not one of ['OperatorEmail', 'WebServerSecurityGroup', 'WebServerInstanceRole', 'WebServerInstanceProfile', 'ElasticLoadBalancer', 'LaunchConfiguration', 'AutoScalingGroup', 'ScalingPolicy', 'CloudWatchAlarm', 'ScalingNotificationTopic', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate12.json:1:2200
+
+E1020 'SubnetId2' is not one of ['OperatorEmail', 'WebServerSecurityGroup', 'WebServerInstanceRole', 'WebServerInstanceProfile', 'ElasticLoadBalancer', 'LaunchConfiguration', 'AutoScalingGroup', 'ScalingPolicy', 'CloudWatchAlarm', 'ScalingNotificationTopic', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate12.json:1:2222
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate27.json:1:240
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate29.json:1:233
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E3019 Primary identifiers {'TableName': {'Fn::Sub': 'MyTable_${AWS::Region}'}} should have unique values across the resources {'MyDynamoDBTableUSWest2', 'MyDynamoDBTableUSEast1', 'MyDynamoDBTableEUCentral1'}
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate40.json:1:468
+
+E3019 Primary identifiers {'TableName': {'Fn::Sub': 'MyTable_${AWS::Region}'}} should have unique values across the resources {'MyDynamoDBTableUSWest2', 'MyDynamoDBTableUSEast1', 'MyDynamoDBTableEUCentral1'}
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate40.json:1:132
+
+E3019 Primary identifiers {'TableName': {'Fn::Sub': 'MyTable_${AWS::Region}'}} should have unique values across the resources {'MyDynamoDBTableUSWest2', 'MyDynamoDBTableUSEast1', 'MyDynamoDBTableEUCentral1'}
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate40.json:1:807
+"
+"E3690 '5.6.10a' is not one of ['5.7.mysql_aurora.2.11.1', '5.7.mysql_aurora.2.11.2', '5.7.mysql_aurora.2.11.3', '5.7.mysql_aurora.2.11.4', '5.7.mysql_aurora.2.11.4', '5.7.mysql_aurora.2.11.5', '5.7.mysql_aurora.2.12.0', '5.7.mysql_aurora.2.12.1', '5.7.mysql_aurora.2.12.2', '8.0.mysql_aurora.3.03.0', '8.0.mysql_aurora.3.03.1', '8.0.mysql_aurora.3.03.2', '8.0.mysql_aurora.3.03.3', '8.0.mysql_aurora.3.04.0', '8.0.mysql_aurora.3.04.1', '8.0.mysql_aurora.3.04.2', '8.0.mysql_aurora.3.04.3', '8.0.mysql_aurora.3.05.2', '8.0.mysql_aurora.3.06.0', '8.0.mysql_aurora.3.06.1', '8.0.mysql_aurora.3.07.0']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate41.json:1:150
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate41.json:1:211
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate42.json:1:598
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate43.json:1:808
+"
+""
+"E3002 Additional properties are not allowed ('ReplicationInstanceArn' was unexpected. Did you mean 'ReplicationInstanceClass'?)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate45.json:1:1452
+
+E3002 Additional properties are not allowed ('BucketName' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate45.json:1:2353
+
+E3003 'ReplicationInstanceArn' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate45.json:1:2443
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate45.json:1:177
+"
+""
+""
+""
+""
+"E3006 Resource type 'AWS::DataPipeline::Resource' does not exist in 'us-east-1'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate50.json:1:675
+"
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate51.json:1:423
+"
+""
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate53.json:1:355
+"
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate54.json:1:419
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1021 ['#!/bin/bash -xe\n', 'yum update -y\n', 'yum install -y aws-cfn-bootstrap\n', '/opt/aws/bin/cfn-init -v --stack ${AWS::StackName} --resource MyInstance --region ${AWS::Region}\n', '/opt/aws/bin/cfn-signal -e $? --stack ${AWS::StackName} --resource MyInstance --region ${AWS::Region}\n'] is too long (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate65.json:1:723
+
+E1021 'yum update -y\n' is not of type 'object'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate65.json:1:756
+"
+""
+""
+""
+""
+""
+""
+"E1020 'MyVPC' is not one of ['MyEFSFileSystem', 'MountTarget1', 'MountTarget2', 'MountTargetSecurityGroup', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate72.json:1:1085
+"
+""
+""
+"E1020 'Subnet1' is not one of ['FileSystem', 'MountTarget1', 'MountTarget2', 'EFSSecurityGroup', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate75.json:1:384
+
+E1020 'Subnet2' is not one of ['FileSystem', 'MountTarget1', 'MountTarget2', 'EFSSecurityGroup', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate75.json:1:571
+
+E1020 'VpcId' is not one of ['FileSystem', 'MountTarget1', 'MountTarget2', 'EFSSecurityGroup', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate75.json:1:777
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E3680 [{'Ref': 'SubnetA'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate92.json:1:1225
+"
+""
+""
+""
+"E3680 [{'Ref': 'SubnetId'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate96.json:1:1663
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1019 'MyCoreCertificateId' is not one of ['MyGreengrassGroup', 'MyCoreDefinition', 'MyDeviceDefinition', 'MyFunctionDefinition', 'MyResourceDefinition', 'MyLambdaFunction', 'MyLambdaExecutionRole', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate111.json:1:640
+
+E1019 'MyCoreThingName' is not one of ['MyGreengrassGroup', 'MyCoreDefinition', 'MyDeviceDefinition', 'MyFunctionDefinition', 'MyResourceDefinition', 'MyLambdaFunction', 'MyLambdaExecutionRole', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate111.json:1:761
+
+E1019 'MyDeviceCertificateId' is not one of ['MyGreengrassGroup', 'MyCoreDefinition', 'MyDeviceDefinition', 'MyFunctionDefinition', 'MyResourceDefinition', 'MyLambdaFunction', 'MyLambdaExecutionRole', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate111.json:1:1033
+
+E1019 'MyDeviceThingName' is not one of ['MyGreengrassGroup', 'MyCoreDefinition', 'MyDeviceDefinition', 'MyFunctionDefinition', 'MyResourceDefinition', 'MyLambdaFunction', 'MyLambdaExecutionRole', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate111.json:1:1156
+
+E1020 'MyCoreDefinitionVersionArn' is not one of ['MyGreengrassGroup', 'MyCoreDefinition', 'MyDeviceDefinition', 'MyFunctionDefinition', 'MyResourceDefinition', 'MyLambdaFunction', 'MyLambdaExecutionRole', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate111.json:1:177
+
+E1020 'MyDeviceDefinitionVersionArn' is not one of ['MyGreengrassGroup', 'MyCoreDefinition', 'MyDeviceDefinition', 'MyFunctionDefinition', 'MyResourceDefinition', 'MyLambdaFunction', 'MyLambdaExecutionRole', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate111.json:1:246
+
+E1020 'MyFunctionDefinitionVersionArn' is not one of ['MyGreengrassGroup', 'MyCoreDefinition', 'MyDeviceDefinition', 'MyFunctionDefinition', 'MyResourceDefinition', 'MyLambdaFunction', 'MyLambdaExecutionRole', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate111.json:1:319
+
+E1020 'MyResourceDefinitionVersionArn' is not one of ['MyGreengrassGroup', 'MyCoreDefinition', 'MyDeviceDefinition', 'MyFunctionDefinition', 'MyResourceDefinition', 'MyLambdaFunction', 'MyLambdaExecutionRole', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate111.json:1:394
+"
+"E1010 'Arn' is not one of ['Id']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate112.json:1:2209
+
+E3002 Additional properties are not allowed ('CoreDefinitionVersionId' was unexpected. Did you mean 'CoreDefinitionVersionArn'?)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate112.json:1:959
+
+E3002 Additional properties are not allowed ('FunctionDefinitionVersionId' was unexpected. Did you mean 'FunctionDefinitionVersionArn'?)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate112.json:1:1889
+"
+""
+""
+""
+""
+""
+""
+""
+"E3002 Additional properties are not allowed ('OutputConfiguration' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate120.json:1:973
+"
+""
+""
+""
+""
+"W2001 Parameter DBMasterUser not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate125.json:1:4037
+
+W2001 Parameter DBMasterPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate125.json:1:4324
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate126.json:1:299
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate127.json:1:952
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate128.json:1:280
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate129.json:1:468
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate130.json:1:568
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate131.json:1:225
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate132.json:1:222
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate133.json:1:228
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate134.json:1:304
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate135.json:1:218
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate136.json:1:454
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate137.json:1:445
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate138.json:1:437
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate139.json:1:423
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate140.json:1:436
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W3045 'AccessControl' is a legacy property. Consider using 'AWS::S3::BucketPolicy' instead
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate150.json:1:312
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate151.json:1:1783
+
+W2001 Parameter UserName not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate151.json:1:578
+
+W2001 Parameter CreateDomainJoinResources not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate151.json:1:1063
+"
+"E3002 Additional properties are not allowed ('ConnectSettings' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate152.json:1:1224
+
+E3004 Circular Dependencies for resource DomainMembersSecurityGroup. Circular dependency with [DomainMembersSecurityGroup]
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate152.json:1:1773
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate152.json:1:1086
+
+W2501 Parameter DirectoryPassword used as Password, therefore NoEcho should be True
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate152.json:1:724
+
+W8001 Condition CreateDomainMembersSecurityGroup not used
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate152.json:1:2509
+
+W8003 ['true', 'true'] will always return True or False
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate152.json:1:2509
+
+W8003 ['true', 'true'] will always return True or False
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate152.json:1:2579
+"
+"E1020 'ADConnectorPassword' is not one of ['DirectoryName', 'DnsIpAddresses', 'SubnetIds', 'VPCId', 'CreateSeamlessDomainJoin', 'CreateDomainMembersSecurityGroup', 'CreateDHCPOptionSet', 'ADConnector', 'SeamlessDomainJoinEC2Role', 'DomainMembersSecurityGroup', 'DHCPOptionSet', 'DHCPOptionSetAssociation', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate153.json:1:1210
+"
+"E1010 'VpcId' is not one of ['ADConnector', 'SeamlessDomainJoin', 'DomainMembersSecurityGroup', 'DHCPOptionSet', 'DHCPConfigAssociation']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate154.json:1:2536
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate154.json:1:1688
+
+W2001 Parameter DirectoryUsername not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate154.json:1:1469
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate155.json:1:1409
+
+W2001 Parameter ADDomainName not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate155.json:1:258
+
+W2001 Parameter UserName not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate155.json:1:503
+"
+""
+""
+""
+""
+""
+"E1022 {'Fn::Join': [',', {'Ref': 'DnsServers'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate161.json:1:3360
+
+E1022 {'Fn::Join': [',', {'Ref': 'DnsServers'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate161.json:1:3647
+
+E1022 {'Fn::Join': [',', {'Ref': 'DnsServers'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate161.json:1:3969
+
+E1022 {'Fn::Join': [',', {'Ref': 'DnsServers'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate161.json:1:4276
+"
+""
+"E1151 'vpc-xxxxxxxx' is not a 'AWS::EC2::VPC.Id'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate163.json:1:378
+
+E1151 'vpc-xxxxxxxx' is not a 'AWS::EC2::VPC.Id'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate163.json:1:3342
+
+E3037 ['subnet-xxxxxxxx', 'subnet-xxxxxxxx'] has non-unique elements
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate163.json:1:403
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate163.json:1:290
+"
+"W2001 Parameter DNSServers not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_2/JSONtemplate164.json:1:550
+"
+""

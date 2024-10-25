@@ -1,0 +1,253 @@
+0
+"W3005 'MyVPCEndpointService' dependency already enforced by a 'GetAtt' at 'Resources/MyVPCEndpoint/Properties/ServiceName/Fn::Sub/1/ServiceID'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate1.json:1:593
+"
+"E1010 'ServiceName' is not one of ['ServiceId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate2.json:1:1601
+"
+""
+""
+""
+"E1010 'Arn' is not one of ['AutoScalingConfigurationArn', 'AutoScalingConfigurationRevision', 'Latest']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate6.json:1:602
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1001 Additional properties are not allowed ('UpdatePolicy' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate20.json:1:1848
+"
+""
+""
+""
+""
+""
+""
+""
+"W3005 'LambdaExecutionRole' dependency already enforced by a 'GetAtt' at 'Resources/DateMacroFunction/Properties/Role'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate28.json:1:1139
+"
+"W3005 'LambdaExecutionRole' dependency already enforced by a 'GetAtt' at 'Resources/DateLambdaFunction/Properties/Role'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate29.json:1:1140
+"
+""
+""
+""
+""
+""
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate35.json:1:359
+"
+""
+""
+""
+""
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate41.json:1:1239
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate42.json:1:2657
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate42.json:1:2706
+"
+"E1010 'Endpoint.ExternalId' is not one of ['Id', 'ExternalId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate43.json:1:3148
+
+E1010 'Endpoint.ExternalId' is not one of ['Id', 'ExternalId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate43.json:1:3230
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate43.json:1:602
+"
+""
+"E1027 Dynamic reference 'resolve:ssm-secure:/your/other/parameter/path:1' to SSM secure strings can only be used in resource properties
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate45.json:1:2641
+
+W2001 Parameter DMSSourceEndpointPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate45.json:1:3689
+"
+""
+""
+""
+""
+""
+"E3032 [{'AttributeName': 'Id', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate51.json:1:345
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W3005 'MyEFSFileSystem' dependency already enforced by a 'Ref' at 'Resources/MyEFSMountTargetAZ1/Properties/FileSystemId'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate75.json:1:444
+
+W3005 'MyEFSFileSystem' dependency already enforced by a 'Ref' at 'Resources/MyEFSMountTargetAZ2/Properties/FileSystemId'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate75.json:1:678
+"
+""
+""
+""
+""
+"W2001 Parameter VpcId not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate80.json:1:147
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W3005 'CoreDefinition' dependency already enforced by a 'Ref' at 'Resources/CoreDefinitionVersion/Properties/CoreDefinitionId'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate112.json:1:798
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate127.json:1:299
+"
+"E1050 'generationstage' is not one of ['SecretString', '']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate128.json:1:464
+"
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate131.json:1:225
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate132.json:1:202
+"
+"E1020 'DBMasterPasswordSSMParameter' is not one of ['DBMasterUsername', 'MyDBInstance', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate133.json:1:245
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate134.json:1:372
+
+W2501 Parameter DBPassword used as MasterUserPassword, therefore NoEcho should be True
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate134.json:1:59
+"
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate136.json:1:430
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate137.json:1:476
+
+W2001 Parameter DBPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate137.json:1:718
+"
+""
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate140.json:1:426
+"
+""
+""
+""
+""
+"E1019 ['${SecureBucket.Arn}/*'] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate145.json:1:1326
+"
+""
+""
+""
+""
+""
+"E1022 {'Fn::Join': [',', {'Ref': 'DnsIpAddresses'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate151.json:1:1367
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate151.json:1:970
+"
+"E3006 Resource type 'AWS::DirectoryService::Directory' does not exist in 'us-east-1'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate152.json:1:2197
+"
+"E1022 {'Fn::Join': [',', {'Ref': 'DnsIpAddresses'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate153.json:1:1640
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate154.json:1:852
+
+W2501 Parameter SSMParameterPassword used as Password, therefore NoEcho should be True
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate154.json:1:635
+"
+""
+""
+""
+""
+""
+"W3005 'VPCEndpointSecurityGroup' dependency already enforced by a 'Ref' at 'Resources/VPCEndpoint/Properties/SecurityGroupIds/0'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_7/JSONtemplate160.json:1:1181
+"
+""
+""
+""
+""
+""

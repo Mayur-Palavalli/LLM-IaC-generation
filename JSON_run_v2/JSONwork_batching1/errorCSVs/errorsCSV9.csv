@@ -1,0 +1,299 @@
+0
+"E1010 'ServiceName' is not one of ['ServiceId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate1.json:1:845
+"
+""
+""
+"E1010 'ServiceName' is not one of ['ServiceId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate4.json:1:1795
+
+E3002 Additional properties are not allowed ('ServiceId' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate4.json:1:735
+
+E3003 'ServiceName' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate4.json:1:720
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1001 Additional properties are not allowed ('UpdatePolicy' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate18.json:1:1316
+"
+""
+"E3016 Additional properties are not allowed ('Properties' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate20.json:1:1488
+
+E3016 Additional properties are not allowed ('Type' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate20.json:1:1439
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate33.json:1:494
+"
+"W3005 'MyRole' dependency already enforced by a 'Ref' at 'Resources/MyPolicyResource/Properties/Roles/0'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate34.json:1:486
+"
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate35.json:1:529
+"
+""
+""
+""
+""
+""
+"E1027 Dynamic reference 'resolve:ssm-secure:/my/secure/password:1' to SSM secure strings can only be used in resource properties
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate41.json:1:1991
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate41.json:1:200
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate42.json:1:198
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate42.json:1:1674
+"
+""
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate45.json:1:473
+"
+""
+""
+""
+""
+""
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate51.json:1:355
+
+E3039 The set of Attributes in AttributeDefinitions: ['GlobalIndexKey', 'LocalIndexKey', 'PrimaryKey'] and KeySchemas: ['LocalIndexKey', 'PrimaryKey'] must match at Resources/MyDynamoDBTable/Properties
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate51.json:1:110
+"
+""
+""
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate54.json:1:361
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W3005 'EFSSecurityGroup' dependency already enforced by a 'Ref' at 'Resources/MountTarget1/Properties/SecurityGroups/0'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate71.json:1:425
+
+W3005 'EFSSecurityGroup' dependency already enforced by a 'Ref' at 'Resources/MountTarget2/Properties/SecurityGroups/0'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate71.json:1:648
+
+W3005 'EFSSecurityGroup' dependency already enforced by a 'Ref' at 'Resources/MountTarget3/Properties/SecurityGroups/0'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate71.json:1:871
+"
+""
+""
+"W3005 'EFSSecurityGroup' dependency already enforced by a 'Ref' at 'Resources/EFSMountTarget1/Properties/SecurityGroups/0'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate74.json:1:501
+
+W3005 'EFSSecurityGroup' dependency already enforced by a 'Ref' at 'Resources/EFSMountTarget2/Properties/SecurityGroups/0'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate74.json:1:734
+"
+"W3005 'MyEFSFileSystem' dependency already enforced by a 'Ref' at 'Resources/MyMountTarget1/Properties/FileSystemId'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate75.json:1:480
+
+W3005 'MyEFSFileSystem' dependency already enforced by a 'Ref' at 'Resources/MyMountTarget2/Properties/FileSystemId'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate75.json:1:691
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1010 'SourceSecurityGroup' is not one of ['Id', 'CanonicalHostedZoneName', 'CanonicalHostedZoneNameID', 'SourceSecurityGroup.GroupName', 'DNSName', 'SourceSecurityGroup.OwnerAlias']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate96.json:1:805
+"
+""
+""
+"E1010 'GroupName' is not one of ['VpcId', 'Id', 'GroupId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate99.json:1:855
+"
+""
+""
+""
+""
+""
+""
+""
+"E1010 'NetworkInterfaces.0.NetworkInterfaceId' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate107.json:1:1472
+
+E1010 'NetworkInterfaces.1.NetworkInterfaceId' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate107.json:1:1710
+"
+""
+""
+"E1017 'NetworkInterfaces' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate110.json:1:1293
+
+E1017 'NetworkInterfaces' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate110.json:1:1564
+"
+""
+""
+""
+""
+""
+""
+"E3002 Additional properties are not allowed ('RoleArn' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate117.json:1:881
+
+E3002 Additional properties are not allowed ('RoleArn' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate117.json:1:1250
+"
+"E1029 Found an embedded parameter ""${MyDatastore}"" outside of an ""Fn::Sub"" at Resources/MyDataset/Properties/Actions/0/QueryAction/SqlQuery
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate118.json:1:889
+"
+""
+""
+""
+""
+""
+""
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate127.json:1:738
+"
+"W2001 Parameter DatabasePassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate128.json:1:875
+
+W2501 Password should use a secure dynamic reference for Resources/MyDBInstance/Properties/MasterUserPassword
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate128.json:1:252
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate130.json:1:302
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate131.json:1:239
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate132.json:1:207
+"
+""
+"W2001 Parameter DBMasterUsername not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate134.json:1:421
+
+W2001 Parameter DBMasterUserPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate134.json:1:515
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate135.json:1:291
+
+W2001 Parameter DBPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate135.json:1:425
+"
+"E3682 Additional properties are not allowed (['MasterUserPassword'])
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate136.json:1:294
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate136.json:1:397
+"
+"W2501 Password shouldn't be hardcoded for Resources/MyDBInstance/Properties/MasterUserPassword
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate137.json:1:228
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate139.json:1:411
+"
+""
+""
+""
+""
+""
+"W3011 Both 'UpdateReplacePolicy' and 'DeletionPolicy' are needed to protect resource from deletion
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate145.json:1:352
+
+W3011 Both 'UpdateReplacePolicy' and 'DeletionPolicy' are needed to protect resource from deletion
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate145.json:1:552
+"
+""
+""
+""
+"E1019 'CloudFrontOriginAccessIdentityConfig.OriginAccessIdentity' is not one of ['Id', 'S3CanonicalUserId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate149.json:1:1083
+"
+""
+"W8001 Condition CreateSecurityGroup not used
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate151.json:1:1571
+
+W8001 Condition CreateDhcpOptions not used
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate151.json:1:1677
+
+W8003 [{'Ref': 'AWS::NoValue'}, {'Ref': 'AWS::NoValue'}] will always return True or False
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate151.json:1:1607
+
+W8003 [{'Ref': 'AWS::NoValue'}, {'Ref': 'AWS::NoValue'}] will always return True or False
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate151.json:1:1711
+"
+""
+"E1022 {'Fn::Join': [',', {'Ref': 'CustomerDnsIps'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_9/JSONtemplate153.json:1:1062
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""

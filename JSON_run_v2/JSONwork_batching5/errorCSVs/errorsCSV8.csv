@@ -1,0 +1,302 @@
+0
+""
+""
+""
+""
+"W3005 'NLB' dependency already enforced by a 'Ref' at 'Resources/VPCEndpointService/Properties/NetworkLoadBalancerArns/0'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate5.json:1:1353
+"
+""
+""
+""
+""
+""
+"E1020 {'Ref': 'Subnets'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate11.json:1:1109
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate31.json:1:353
+"
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate32.json:1:469
+"
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate33.json:1:455
+"
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate34.json:1:459
+"
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate35.json:1:451
+"
+""
+""
+""
+""
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate41.json:1:227
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate42.json:1:617
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate42.json:1:2036
+
+W2001 Parameter MasterUserPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate42.json:1:3088
+
+W2001 Parameter SourceEndpointPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate42.json:1:3205
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate43.json:1:808
+"
+""
+"E3003 'ReplicationInstanceArn' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate45.json:1:2451
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate45.json:1:177
+"
+""
+""
+""
+""
+""
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate51.json:1:423
+"
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate52.json:1:355
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1029 Found an embedded parameter ""${AWS::StackName}"" outside of an ""Fn::Sub"" at Resources/MyInstance/Properties/UserData/Fn::Base64/Fn::Join/1/3
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate65.json:1:815
+
+E1029 Found an embedded parameter ""${AWS::Region}"" outside of an ""Fn::Sub"" at Resources/MyInstance/Properties/UserData/Fn::Base64/Fn::Join/1/3
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate65.json:1:815
+
+E1029 Found an embedded parameter ""${AWS::StackName}"" outside of an ""Fn::Sub"" at Resources/MyInstance/Properties/UserData/Fn::Base64/Fn::Join/1/4
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate65.json:1:915
+
+E1029 Found an embedded parameter ""${AWS::Region}"" outside of an ""Fn::Sub"" at Resources/MyInstance/Properties/UserData/Fn::Base64/Fn::Join/1/4
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate65.json:1:915
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W2506 'String' is not one of ['AWS::EC2::Image::Id', 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate76.json:1:729
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E3001 'Type' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate90.json:1:932
+
+E3001 Additional properties are not allowed ('AutoScalingRollingUpdate' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate90.json:1:949
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E3014 Only one of ['Subnets', 'SubnetMappings'] is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate110.json:1:424
+
+E3014 Only one of ['Subnets', 'SubnetMappings'] is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate110.json:1:281
+"
+""
+"E1010 'Arn' is not one of ['Id']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate112.json:1:2111
+
+E1010 'Arn' is not one of ['Id']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate112.json:1:1038
+
+E1010 'Arn' is not one of ['Id']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate112.json:1:1134
+"
+"E3007 Resources and Parameters must not share name: GreengrassCoreDefinitionVersion
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate113.json:1:780
+
+E3007 Resources and Parameters must not share name: GreengrassFunctionDefinitionVersion
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate113.json:1:1449
+
+E3007 Resources and Parameters must not share name: GreengrassDeviceDefinitionVersion
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate113.json:1:2136
+
+E3007 Resources and Parameters must not share name: GreengrassResourceDefinitionVersion
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate113.json:1:2771
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W2001 Parameter DBMasterUser not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate125.json:1:4037
+
+W2001 Parameter DBMasterPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate125.json:1:4324
+"
+"E1020 {'Ref': 'DBPassword'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate126.json:1:299
+
+E2001 'Value' is not one of ['AllowedPattern', 'AllowedValues', 'ConstraintDescription', 'Default', 'Description', 'MaxLength', 'MinLength', 'NoEcho', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate126.json:1:1875
+
+E2001 Additional properties are not allowed ('Value' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate126.json:1:1875
+
+E2002 'AWS::SecretsManager::Secret' is not one of ['String', 'Number', 'CommaDelimitedList', 'AWS::EC2::AvailabilityZone::Name', 'AWS::EC2::Image::Id', 'AWS::EC2::Instance::Id', 'AWS::EC2::KeyPair::KeyName', 'AWS::EC2::SecurityGroup::GroupName', 'AWS::EC2::SecurityGroup::Id', 'AWS::EC2::Subnet::Id', 'AWS::EC2::VPC::Id', 'AWS::EC2::Volume::Id', 'AWS::Route53::HostedZone::Id', 'AWS::SSM::Parameter::Name', 'AWS::SSM::Parameter::Value<AWS::EC2::AvailabilityZone::Name>', 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Instance::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::KeyPair::KeyName>', 'AWS::SSM::Parameter::Value<AWS::EC2::SecurityGroup::GroupName>', 'AWS::SSM::Parameter::Value<AWS::EC2::SecurityGroup::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Subnet::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::VPC::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Volume::Id>', 'AWS::SSM::Parameter::Value<AWS::Route53::HostedZone::Id>', 'AWS::SSM::Parameter::Value<AWS::SSM::Parameter::Name>', 'AWS::SSM::Parameter::Value<Number>', 'AWS::SSM::Parameter::Value<String>', 'AWS::SSM::Parameter::Value<CommaDelimitedList>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::AvailabilityZone::Name>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Image::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Instance::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::SecurityGroup::GroupName>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::SecurityGroup::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Subnet::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::VPC::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Volume::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::Route53::HostedZone::Id>>', 'AWS::SSM::Parameter::Value<List<Number>>', 'AWS::SSM::Parameter::Value<List<String>>', 'List<AWS::EC2::AvailabilityZone::Name>', 'List<AWS::EC2::Image::Id>', 'List<AWS::EC2::Instance::Id>', 'List<AWS::EC2::SecurityGroup::GroupName>', 'List<AWS::EC2::SecurityGroup::Id>', 'List<AWS::EC2::Subnet::Id>', 'List<AWS::EC2::VPC::Id>', 'List<AWS::EC2::Volume::Id>', 'List<AWS::Route53::HostedZone::Id>', 'List<Number>', 'List<String>']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate126.json:1:1762
+
+W2501 Parameter DBPassword used as MasterUserPassword, therefore NoEcho should be True
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate126.json:1:1747
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate127.json:1:975
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate129.json:1:491
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate130.json:1:568
+"
+"E1020 'SecureStringParameter' is not one of ['MyDBInstance', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate131.json:1:243
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate132.json:1:357
+"
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate135.json:1:294
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate135.json:1:194
+"
+""
+"E3012 {'resolve:secretsmanager:mySecret:SecretString:password': 'string'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate137.json:1:445
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate138.json:1:460
+"
+""
+"W2501 Password shouldn't be hardcoded for Resources/MyDBInstance/Properties/MasterUserPassword
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate140.json:1:436
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1020 'ADConnectorPassword' is not one of ['VpcId', 'Subnets', 'ADConnectorDnsIpAddresses', 'DomainDNSName', 'DomainNetBIOSName', 'CreateSecurityGroup', 'CreateDHCPOptionsSet', 'ADConnector', 'SecurityGroup', 'SecurityGroupSelf', 'DHCPOptionsSet', 'DHCPOptionsAssociation', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate151.json:1:1343
+
+E1022 {'Fn::Join': [',', {'Ref': 'ADConnectorDnsIpAddresses'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate151.json:1:2142
+"
+"E1019 'SecretId' is not one of ['DirectoryName', 'ShortName', 'VpcId', 'SubnetIds', 'DNSIpAddresses', 'ADConnector', 'SeamlessDomainJoinRole', 'DomainMembersSecurityGroup', 'DHCPOptionSet', 'DHCPOptionSetAssociation', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate152.json:1:895
+"
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate154.json:1:1557
+
+W2501 Parameter ADPassword used as Password, therefore NoEcho should be True
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate154.json:1:1354
+"
+"E1020 'my-ad-password' is not one of ['ADConnectorName', 'SubnetIds', 'DomainControllers', 'VPCId', 'CreateSecurityGroup', 'CreateDHCPOptions', 'EC2InstanceRole', 'ADConnector', 'SeamlessDomainJoinManagementPolicy', 'DomainMembersSecurityGroup', 'DHCPOptionsSet', 'DHCPOptionsAssociation', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate155.json:1:1060
+"
+""
+""
+""
+""
+""
+""
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_8/JSONtemplate163.json:1:290
+"
+""
+""

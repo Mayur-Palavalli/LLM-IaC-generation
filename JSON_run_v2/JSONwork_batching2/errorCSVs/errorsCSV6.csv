@@ -1,0 +1,289 @@
+0
+""
+""
+"E3002 Additional properties are not allowed ('Tags' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate3.json:1:1642
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1019 'AWS::Serverless::Function' is not one of ['ParamTableNames', 'DynamoDBTables', 'ResourcesNestedStack', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate36.json:1:332
+"
+""
+""
+""
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate42.json:1:205
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate42.json:1:1782
+"
+"E3003 'ReplicationInstanceArn' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate43.json:1:2494
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate43.json:1:526
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate44.json:1:200
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate44.json:1:1036
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate45.json:1:647
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate45.json:1:565
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate45.json:1:2130
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate45.json:1:2058
+"
+""
+""
+""
+""
+""
+"E3002 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}, {'AttributeName': 'PrimaryKey', 'KeyType': 'RANGE'}] has non-unique elements for keys ['AttributeName']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate51.json:1:365
+
+E3012 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}, {'AttributeName': 'PrimaryKey', 'KeyType': 'RANGE'}] is not of type 'object', 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate51.json:1:365
+
+E3018 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}, {'AttributeName': 'PrimaryKey', 'KeyType': 'RANGE'}] is not valid under any of the given schemas
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate51.json:1:365
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1019 ['/opt/aws/bin/cfn-signal -e $? --stack ${AWS::StackName} --resource MyEC2Instance --region ${AWS::Region}'] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate62.json:1:404
+
+E1021 ['#!/bin/bash\n/opt/aws/bin/cfn-init -v --stack ${AWS::StackName} --resource MyEC2Instance --region ${AWS::Region}\n'] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate62.json:1:638
+"
+""
+""
+""
+""
+""
+"E3002 Additional properties are not allowed ('NetworkInterfaceId' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate68.json:1:702
+
+E3002 Additional properties are not allowed ('NetworkInterfaceId' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate68.json:1:847
+"
+""
+""
+""
+""
+""
+""
+""
+"E3002 Additional properties are not allowed ('VpcId' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate76.json:1:836
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1017 'NetworkInterfaces' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate106.json:1:573
+
+E1017 'NetworkInterfaces' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate106.json:1:789
+"
+""
+""
+""
+"E1017 'LoadBalancerId' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate110.json:1:1063
+
+E1017 'LoadBalancerId' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate110.json:1:1356
+"
+"W3011 Both 'UpdateReplacePolicy' and 'DeletionPolicy' are needed to protect resource from deletion
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate111.json:1:1219
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate126.json:1:326
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate126.json:1:222
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate128.json:1:398
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate128.json:1:324
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate130.json:1:573
+
+W3011 Both 'UpdateReplacePolicy' and 'DeletionPolicy' are needed to protect resource from deletion
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate130.json:1:763
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate131.json:1:256
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate132.json:1:251
+
+W2001 Parameter DBMasterPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate132.json:1:413
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate133.json:1:290
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate135.json:1:225
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate136.json:1:434
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate137.json:1:478
+"
+"E3682 Additional properties are not allowed (['MasterUserPassword'])
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate138.json:1:284
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate139.json:1:432
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate140.json:1:434
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1022 {'Fn::Join': [',', {'Ref': 'DomainDnsIpAddresses'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate152.json:1:1674
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate152.json:1:937
+
+W2001 Parameter ServiceAccountUsername not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate152.json:1:601
+"
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate154.json:1:1298
+"
+"E1022 {'Fn::Join': [', ', {'Ref': 'ConnectorDnsIpAddresses'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate155.json:1:1155
+"
+""
+""
+""
+""
+""
+""
+"E1022 {'Fn::Join': [',', {'Ref': 'DnsIpAddresses'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate162.json:1:1364
+"
+"E1020 {'Ref': 'DnsServers'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate163.json:1:3185
+
+E1020 {'Ref': 'DnsServers'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate163.json:1:3457
+
+E1020 {'Ref': 'DnsServers'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate163.json:1:3729
+
+E1020 {'Ref': 'DnsServers'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_6/JSONtemplate163.json:1:4001
+"
+""
+""

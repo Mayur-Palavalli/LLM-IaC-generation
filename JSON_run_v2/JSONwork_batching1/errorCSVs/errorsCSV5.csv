@@ -1,0 +1,304 @@
+0
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1151 {'Ref': 'VpcId'} is not a 'AWS::EC2::VPC.Id' when 'Ref' is resolved
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate11.json:1:1802
+"
+""
+""
+""
+""
+""
+"E1020 'VpcId' is not one of ['subnetId', 'myLoadBalancer', 'myLaunchConfiguration', 'myAutoScalingGroup', 'myTargetGroup', 'InstanceSecurityGroup', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate17.json:1:1750
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate33.json:1:494
+"
+""
+""
+""
+""
+""
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate41.json:1:200
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate41.json:1:2004
+
+W2001 Parameter DBMasterPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate41.json:1:3025
+"
+""
+"E1019 'SecretId' is not one of ['AuroraCluster', 'DBInstance', 'DMSSubnetGroup', 'DMSSecurityGroup', 'ReplicationInstance', 'DMSSourceEndpoint', 'DMSTargetEndpoint', 'DataBucket', 'DMSTask', 'DBSubnetGroup', 'DBSecurityGroup', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate43.json:1:203
+
+E1019 'SecretId' is not one of ['AuroraCluster', 'DBInstance', 'DMSSubnetGroup', 'DMSSecurityGroup', 'ReplicationInstance', 'DMSSourceEndpoint', 'DMSTargetEndpoint', 'DataBucket', 'DMSTask', 'DBSubnetGroup', 'DBSecurityGroup', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate43.json:1:1509
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate45.json:1:496
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate45.json:1:2016
+
+W2001 Parameter DBMasterUserPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate45.json:1:2975
+
+W2001 Parameter DMSSourceEndpointPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate45.json:1:3124
+"
+""
+""
+""
+""
+""
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate51.json:1:355
+"
+""
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate53.json:1:323
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W3005 'EFSSecurityGroup' dependency already enforced by a 'Ref' at 'Resources/MountTarget1/Properties/SecurityGroups/0'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate71.json:1:425
+
+W3005 'EFSSecurityGroup' dependency already enforced by a 'Ref' at 'Resources/MountTarget2/Properties/SecurityGroups/0'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate71.json:1:648
+
+W3005 'EFSSecurityGroup' dependency already enforced by a 'Ref' at 'Resources/MountTarget3/Properties/SecurityGroups/0'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate71.json:1:871
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1001 Additional properties are not allowed ('UpdatePolicy' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate89.json:1:971
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1017 {'Fn::GetAtt': ['NetworkLoadBalancer', 'LoadBalancerArn']} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate110.json:1:1235
+
+E1017 {'Fn::GetAtt': ['NetworkLoadBalancer', 'LoadBalancerArn']} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate110.json:1:1482
+"
+""
+""
+""
+""
+""
+""
+"E3002 Additional properties are not allowed ('RoleArn' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate117.json:1:227
+
+E3002 Additional properties are not allowed ('RoleArn' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate117.json:1:469
+
+E3002 Additional properties are not allowed ('RoleArn' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate117.json:1:881
+
+E3003 'RoleArn' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate117.json:1:172
+
+E3003 'RoleArn' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate117.json:1:412
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W2001 Parameter databasePassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate128.json:1:900
+
+W2501 Password should use a secure dynamic reference for Resources/MyDBInstance/Properties/MasterUserPassword
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate128.json:1:252
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate129.json:1:530
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate130.json:1:302
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate131.json:1:239
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate132.json:1:230
+
+W2001 Parameter DBPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate132.json:1:418
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate133.json:1:222
+"
+"W2001 Parameter DBMasterUsername not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate134.json:1:425
+
+W2001 Parameter DBMasterUserPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate134.json:1:519
+"
+""
+""
+"W2001 Parameter DBPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate137.json:1:559
+"
+"E3012 {'Fn::SecretsManagerGetSecretValue': {'SecretId': 'DBPassword', 'VersionStage': 'AWSCURRENT'}} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate138.json:1:431
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate139.json:1:411
+
+W2001 Parameter DBMasterUserPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate139.json:1:569
+"
+"W2501 Password shouldn't be hardcoded for Resources/MyDBInstance/Properties/MasterUserPassword
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate140.json:1:391
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate151.json:1:1019
+
+W2001 Parameter ServiceAccountUsername not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate151.json:1:382
+
+W8003 [True, True] will always return True or False
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate151.json:1:1864
+
+W8003 [True, True] will always return True or False
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate151.json:1:1917
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate152.json:1:1488
+"
+"E1022 {'Fn::Join': [',', {'Ref': 'CustomerDnsIps'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate153.json:1:1062
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate154.json:1:1411
+"
+"W2001 Parameter ConnectorName not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate155.json:1:574
+"
+""
+""
+""
+""
+""
+""
+""
+"E1020 {'Ref': 'DNSServers'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate163.json:1:2912
+
+E1020 {'Ref': 'DNSServers'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate163.json:1:3238
+
+E3014 Only one of ['ImageId', 'LaunchTemplate'] is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate163.json:1:2704
+
+E3014 Only one of ['ImageId', 'LaunchTemplate'] is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate163.json:1:3030
+"
+""
+"E1022 {'Fn::Join': [',', {'Ref': 'DNSServers'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate165.json:1:3055
+
+E1022 {'Fn::Join': [',', {'Ref': 'DNSServers'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate165.json:1:3415
+
+E1022 {'Fn::Join': [',', {'Ref': 'DNSServers'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate165.json:1:3778
+
+E1022 {'Fn::Join': [',', {'Ref': 'DNSServers'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_5/JSONtemplate165.json:1:4141
+"

@@ -1,0 +1,393 @@
+0
+"E1010 'ServiceName' is not one of ['ServiceId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate1.json:1:1457
+
+E3002 Additional properties are not allowed ('ServiceId' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate1.json:1:751
+
+E3003 'ServiceName' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate1.json:1:736
+"
+"E1010 'ServiceName' is not one of ['ServiceId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate2.json:1:2149
+
+E3002 Additional properties are not allowed ('ServiceId' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate2.json:1:1671
+
+E3003 'ServiceName' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate2.json:1:1656
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1001 Additional properties are not allowed ('UpdatePolicy' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate16.json:1:1659
+"
+""
+""
+"E3002 Additional properties are not allowed ('UpdatePolicy' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate19.json:1:1423
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E3002 Additional properties are not allowed ('ServiceAccessRoleArn' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate41.json:1:1421
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate41.json:1:177
+"
+""
+"E1027 Dynamic reference 'resolve:ssm-secure:/myapp/prod/db-source-password:1' to SSM secure strings can only be used in resource properties
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate43.json:1:1694
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate44.json:1:988
+"
+"E2002 'AWS::SecretsManager::SecretString' is not one of ['String', 'Number', 'CommaDelimitedList', 'AWS::EC2::AvailabilityZone::Name', 'AWS::EC2::Image::Id', 'AWS::EC2::Instance::Id', 'AWS::EC2::KeyPair::KeyName', 'AWS::EC2::SecurityGroup::GroupName', 'AWS::EC2::SecurityGroup::Id', 'AWS::EC2::Subnet::Id', 'AWS::EC2::VPC::Id', 'AWS::EC2::Volume::Id', 'AWS::Route53::HostedZone::Id', 'AWS::SSM::Parameter::Name', 'AWS::SSM::Parameter::Value<AWS::EC2::AvailabilityZone::Name>', 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Instance::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::KeyPair::KeyName>', 'AWS::SSM::Parameter::Value<AWS::EC2::SecurityGroup::GroupName>', 'AWS::SSM::Parameter::Value<AWS::EC2::SecurityGroup::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Subnet::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::VPC::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Volume::Id>', 'AWS::SSM::Parameter::Value<AWS::Route53::HostedZone::Id>', 'AWS::SSM::Parameter::Value<AWS::SSM::Parameter::Name>', 'AWS::SSM::Parameter::Value<Number>', 'AWS::SSM::Parameter::Value<String>', 'AWS::SSM::Parameter::Value<CommaDelimitedList>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::AvailabilityZone::Name>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Image::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Instance::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::SecurityGroup::GroupName>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::SecurityGroup::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Subnet::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::VPC::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Volume::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::Route53::HostedZone::Id>>', 'AWS::SSM::Parameter::Value<List<Number>>', 'AWS::SSM::Parameter::Value<List<String>>', 'List<AWS::EC2::AvailabilityZone::Name>', 'List<AWS::EC2::Image::Id>', 'List<AWS::EC2::Instance::Id>', 'List<AWS::EC2::SecurityGroup::GroupName>', 'List<AWS::EC2::SecurityGroup::Id>', 'List<AWS::EC2::Subnet::Id>', 'List<AWS::EC2::VPC::Id>', 'List<AWS::EC2::Volume::Id>', 'List<AWS::Route53::HostedZone::Id>', 'List<Number>', 'List<String>']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate45.json:1:2998
+
+E3002 Additional properties are not allowed ('ReplicationInstanceArn' was unexpected. Did you mean 'ReplicationInstanceClass'?)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate45.json:1:2668
+
+E3003 'ReplicationInstanceArn' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate45.json:1:1858
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate45.json:1:251
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate45.json:1:169
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate45.json:1:1426
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate45.json:1:1354
+
+W2001 Parameter DBMasterPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate45.json:1:2977
+"
+""
+""
+""
+""
+""
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate51.json:1:355
+"
+""
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate53.json:1:365
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W3005 'MyEC2Instance' dependency already enforced by a 'Ref' at 'Resources/MyEIPAddress/Properties/InstanceId'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate66.json:1:732
+"
+""
+""
+""
+"E3002 Additional properties are not allowed ('SecondaryPrivateIpAddresses' was unexpected. Did you mean 'SecondaryPrivateIpAddressCount'?)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate70.json:1:362
+"
+""
+""
+""
+""
+"W3005 'EFSSecurityGroup' dependency already enforced by a 'Ref' at 'Resources/MyMountTarget1/Properties/SecurityGroups/0'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate75.json:1:558
+
+W3005 'EFSSecurityGroup' dependency already enforced by a 'Ref' at 'Resources/MyMountTarget2/Properties/SecurityGroups/0'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate75.json:1:787
+"
+""
+"E1020 {'Ref': 'Subnets'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate77.json:1:2000
+"
+""
+"W2001 Parameter VpcId not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate79.json:1:736
+"
+"E3002 Additional properties are not allowed ('VpcId' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate80.json:1:797
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1010 'SourceSecurityGroup.GroupId' is not one of ['Id', 'CanonicalHostedZoneName', 'CanonicalHostedZoneNameID', 'SourceSecurityGroup.GroupName', 'DNSName', 'SourceSecurityGroup.OwnerAlias']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate99.json:1:1243
+"
+""
+""
+""
+""
+"E0002 Unknown exception while processing rule E1001: ""'dict' object has no attribute 'start_mark'""
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate104.json:1:1
+"
+""
+""
+""
+""
+"E1017 'NetworkInterfaces' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate109.json:1:970
+
+E1017 'NetworkInterfaces' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate109.json:1:1243
+"
+""
+""
+""
+""
+""
+""
+"E3002 Additional properties are not allowed ('Next' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate116.json:1:667
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate128.json:1:437
+"
+""
+"E1027 Dynamic reference 'resolve:ssm-secure:/application/DBUsername:1' to SSM secure strings can only be used in resource properties
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate130.json:1:246
+"
+"E1020 {'Ref': 'DBMasterUserPassword'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate131.json:1:202
+
+E2002 'AWS::SecretsManager::Secret' is not one of ['String', 'Number', 'CommaDelimitedList', 'AWS::EC2::AvailabilityZone::Name', 'AWS::EC2::Image::Id', 'AWS::EC2::Instance::Id', 'AWS::EC2::KeyPair::KeyName', 'AWS::EC2::SecurityGroup::GroupName', 'AWS::EC2::SecurityGroup::Id', 'AWS::EC2::Subnet::Id', 'AWS::EC2::VPC::Id', 'AWS::EC2::Volume::Id', 'AWS::Route53::HostedZone::Id', 'AWS::SSM::Parameter::Name', 'AWS::SSM::Parameter::Value<AWS::EC2::AvailabilityZone::Name>', 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Instance::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::KeyPair::KeyName>', 'AWS::SSM::Parameter::Value<AWS::EC2::SecurityGroup::GroupName>', 'AWS::SSM::Parameter::Value<AWS::EC2::SecurityGroup::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Subnet::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::VPC::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Volume::Id>', 'AWS::SSM::Parameter::Value<AWS::Route53::HostedZone::Id>', 'AWS::SSM::Parameter::Value<AWS::SSM::Parameter::Name>', 'AWS::SSM::Parameter::Value<Number>', 'AWS::SSM::Parameter::Value<String>', 'AWS::SSM::Parameter::Value<CommaDelimitedList>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::AvailabilityZone::Name>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Image::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Instance::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::SecurityGroup::GroupName>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::SecurityGroup::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Subnet::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::VPC::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Volume::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::Route53::HostedZone::Id>>', 'AWS::SSM::Parameter::Value<List<Number>>', 'AWS::SSM::Parameter::Value<List<String>>', 'List<AWS::EC2::AvailabilityZone::Name>', 'List<AWS::EC2::Image::Id>', 'List<AWS::EC2::Instance::Id>', 'List<AWS::EC2::SecurityGroup::GroupName>', 'List<AWS::EC2::SecurityGroup::Id>', 'List<AWS::EC2::Subnet::Id>', 'List<AWS::EC2::VPC::Id>', 'List<AWS::EC2::Volume::Id>', 'List<AWS::Route53::HostedZone::Id>', 'List<Number>', 'List<String>']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate131.json:1:419
+
+W2501 Parameter DBMasterUserPassword used as MasterUserPassword, therefore NoEcho should be True
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate131.json:1:394
+"
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate133.json:1:335
+"
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate135.json:1:222
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate136.json:1:388
+"
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate138.json:1:404
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate139.json:1:410
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate140.json:1:438
+"
+"E1019 ['arn:aws:s3:::${SecureBucket}/*'] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate141.json:1:1379
+
+E1019 ['arn:aws:s3:::${SecureBucket}'] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate141.json:1:1428
+"
+""
+""
+""
+"W3005 'SecureMainBucket' dependency already enforced by a 'GetAtt' at 'Resources/ReplicaBucket/Properties/ReplicationConfiguration/Rules/0/Destination/Bucket'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate145.json:1:1057
+"
+""
+""
+""
+""
+""
+"E1020 {'Ref': 'PasswordSecret'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate151.json:1:1554
+
+E2002 'AWS::SecretsManager::Secret' is not one of ['String', 'Number', 'CommaDelimitedList', 'AWS::EC2::AvailabilityZone::Name', 'AWS::EC2::Image::Id', 'AWS::EC2::Instance::Id', 'AWS::EC2::KeyPair::KeyName', 'AWS::EC2::SecurityGroup::GroupName', 'AWS::EC2::SecurityGroup::Id', 'AWS::EC2::Subnet::Id', 'AWS::EC2::VPC::Id', 'AWS::EC2::Volume::Id', 'AWS::Route53::HostedZone::Id', 'AWS::SSM::Parameter::Name', 'AWS::SSM::Parameter::Value<AWS::EC2::AvailabilityZone::Name>', 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Instance::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::KeyPair::KeyName>', 'AWS::SSM::Parameter::Value<AWS::EC2::SecurityGroup::GroupName>', 'AWS::SSM::Parameter::Value<AWS::EC2::SecurityGroup::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Subnet::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::VPC::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Volume::Id>', 'AWS::SSM::Parameter::Value<AWS::Route53::HostedZone::Id>', 'AWS::SSM::Parameter::Value<AWS::SSM::Parameter::Name>', 'AWS::SSM::Parameter::Value<Number>', 'AWS::SSM::Parameter::Value<String>', 'AWS::SSM::Parameter::Value<CommaDelimitedList>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::AvailabilityZone::Name>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Image::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Instance::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::SecurityGroup::GroupName>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::SecurityGroup::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Subnet::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::VPC::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Volume::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::Route53::HostedZone::Id>>', 'AWS::SSM::Parameter::Value<List<Number>>', 'AWS::SSM::Parameter::Value<List<String>>', 'List<AWS::EC2::AvailabilityZone::Name>', 'List<AWS::EC2::Image::Id>', 'List<AWS::EC2::Instance::Id>', 'List<AWS::EC2::SecurityGroup::GroupName>', 'List<AWS::EC2::SecurityGroup::Id>', 'List<AWS::EC2::Subnet::Id>', 'List<AWS::EC2::VPC::Id>', 'List<AWS::EC2::Volume::Id>', 'List<AWS::Route53::HostedZone::Id>', 'List<Number>', 'List<String>']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate151.json:1:1314
+
+W2501 Parameter PasswordSecret used as Password, therefore NoEcho should be True
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate151.json:1:1295
+"
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_6/JSONtemplate153.json:1:1003
+"
+""
+""
+""
+""
+""
+""
+""
+"Fatal Python error: Cannot recover from stack overflow.
+Python runtime state: initialized
+
+Current thread 0x00000001fce77ac0 (most recent call first):
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/_types.py"", line 60 in is_string
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/_types.py"", line 121 in is_type
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 126 in is_type
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/_filter.py"", line 112 in filter
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 225 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 36 in fix_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 139 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/Split.py"", line 65 in fn_split
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/_keywords_cfn.py"", line 60 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 36 in fix_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 139 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/Join.py"", line 80 in fn_join
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 36 in fix_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 70 in resolve
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 154 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/Ref.py"", line 60 in ref
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/_keywords_cfn.py"", line 60 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 36 in fix_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 139 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/Split.py"", line 65 in fn_split
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/_keywords_cfn.py"", line 60 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 36 in fix_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 139 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/Join.py"", line 80 in fn_join
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 36 in fix_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 70 in resolve
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 154 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/Ref.py"", line 60 in ref
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/_keywords_cfn.py"", line 60 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 36 in fix_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 139 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/Split.py"", line 65 in fn_split
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/_keywords_cfn.py"", line 60 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 36 in fix_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 139 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/Join.py"", line 80 in fn_join
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 36 in fix_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 70 in resolve
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 154 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/Ref.py"", line 60 in ref
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/_keywords_cfn.py"", line 60 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 36 in fix_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 139 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/Split.py"", line 65 in fn_split
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/_keywords_cfn.py"", line 60 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 36 in fix_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 139 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/Join.py"", line 80 in fn_join
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 36 in fix_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 70 in resolve
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 154 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/Ref.py"", line 60 in ref
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/_keywords_cfn.py"", line 60 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 36 in fix_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/_BaseFn.py"", line 139 in validate
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/rules/functions/Split.py"", line 65 in fn_split
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 234 in iter_errors
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/validators.py"", line 290 in descend
+  File ""/Users/map/.pyenv/versions/3.8.16/lib/python3.8/site-packages/cfnlint/jsonschema/_keywords_cfn.py"", line 60 in validate
+  ..."
+""
+""
+""
+""

@@ -1,0 +1,1 @@
+{"ResourceArn": {"Fn::Sub": "arn:aws:iam::${AWS::AccountId}:policy/PermissionBoundaryPolicy"}}

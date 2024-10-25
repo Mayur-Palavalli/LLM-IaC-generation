@@ -1,0 +1,401 @@
+0
+"E3002 Additional properties are not allowed ('Tags' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate1.json:1:915
+"
+"E1010 'ServiceName' is not one of ['ServiceId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate2.json:1:2149
+
+E3002 Additional properties are not allowed ('ServiceId' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate2.json:1:1671
+
+E3003 'ServiceName' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate2.json:1:1656
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E3006 Resource type 'List<AWS::EC2::Subnet::Id>' does not exist in 'us-east-1'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate12.json:1:3441
+"
+""
+""
+""
+"E1152 {'Ref': 'LatestAmiId'} is not a 'AWS::EC2::Image.Id' when 'Ref' is resolved
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate16.json:1:1259
+
+E2001 {'Fn::FindInMap': ['AWSRegionArch2AMI', {'Ref': 'AWS::Region'}, 'HVM64']} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate16.json:1:532
+
+W7001 Mapping 'AWSInstanceType2Arch' is defined but not used
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate16.json:1:2063
+"
+""
+""
+""
+""
+""
+""
+"E1020 'VpcId' is not one of ['SampleLoadBalancer', 'SampleLaunchConfiguration', 'InstanceSecurityGroup', 'SampleAutoScalingGroup', 'ScaleUpPolicy', 'ScaleDownPolicy', 'ScheduledActionScaleUpMorning', 'ScheduledActionScaleDownEvening', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate23.json:1:1252
+"
+""
+""
+""
+""
+"E1019 ['import json\n', 'import datetime\n', 'def handler(event, context):\n', ""    params = json.loads(event['resourceProperties']['Parameters'])\n"", ""    operation = params.get('Operation')\n"", '    result = None\n', ""    if operation == 'current_date':\n"", '        result = str(datetime.datetime.now().date())\n', ""    elif operation == 'add_days':\n"", ""        days = int(params.get('Days', 0))\n"", '        result = str((datetime.datetime.now() + datetime.timedelta(days=days)).date())\n', ""    elif operation == 'subtract_days':\n"", ""        days = int(params.get('Days', 0))\n"", '        result = str((datetime.datetime.now() - datetime.timedelta(days=days)).date())\n', ""    return { 'statusCode': 200, 'body': json.dumps(result) }\n"", 'def lambda_handler(event, context):\n', ""    if event['resourceType'] == 'Custom::DateMacro':\n"", '        return handler(event, context)\n', '    else:\n', ""        return { 'status': 'FAILED', 'reason': 'Invalid resource type.' }\n""] is too long (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate28.json:1:385
+
+E1019 'import datetime\n' is not of type 'object'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate28.json:1:414
+"
+""
+"E1019 [""import json\nimport dateutil.parser\nimport datetime\n\ndef handler(event, context):\n    template = event['fragment']\n    for key, value in template.items():\n        if isinstance(value, dict):\n            template[key] = process_dict(value)\n    return {\n        'requestId': event['requestId'],\n        'status': 'success',\n        'fragment': template\n    }\n\n\ndef process_dict(d):\n    for key, value in d.items():\n        if key == '!GetCurrentDate':\n            d = get_current_date(value)\n        elif key == '!DateAdd':\n            d = date_add(value)\n        elif isinstance(value, dict):\n            d[key] = process_dict(value)\n    return d\n\n\ndef get_current_date(params):\n    format = params.get('Format', '%Y-%m-%d')\n    return datetime.datetime.now().strftime(format)\n\n\ndef date_add(params):\n    date = dateutil.parser.parse(params['Date'])\n    delta = datetime.timedelta(**params['Delta'])\n    new_date = date + delta\n    format = params.get('Format', '%Y-%m-%d')\n    return new_date.strftime(format)\n""] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate30.json:1:363
+"
+""
+""
+""
+""
+""
+"E0002 Unknown exception while processing rule E3039: ""'str_node' object has no attribute 'get'""
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate36.json:1:1
+"
+""
+"E1020 'tableName' is not one of ['Tables', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate38.json:1:704
+
+E1022 {'Fn::ForEach': {'Array': ['Table1', 'Table2', 'Table3'], 'IteratorName': 'tableName', 'Fn::Sub': ['""${tableName}"": {""Type"": ""AWS::DynamoDB::Table"",""Properties"": {""AttributeDefinitions"": [{""AttributeName"": ""ID"",""AttributeType"": ""S""}],""KeySchema"": [{""AttributeName"": ""ID"",""KeyType"": ""HASH""}],""ProvisionedThroughput"": {""ReadCapacityUnits"": 5,""WriteCapacityUnits"": 5},""TableName"": ""${tableName}""}},', {'tableName': {'Ref': 'tableName'}}]}} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate38.json:1:253
+"
+""
+""
+"E3002 Additional properties are not allowed ('BucketName' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate41.json:1:1421
+
+E3002 Additional properties are not allowed ('ServiceAccessRoleArn' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate41.json:1:1479
+
+E3002 Additional properties are not allowed ('ReplicationInstanceId' was unexpected. Did you mean 'ReplicationInstanceArn'?)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate41.json:1:2388
+
+E3002 Additional properties are not allowed ('SourceEndpointId' was unexpected. Did you mean 'SourceEndpointArn'?)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate41.json:1:2288
+
+E3002 Additional properties are not allowed ('TargetEndpointId' was unexpected. Did you mean 'TargetEndpointArn'?)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate41.json:1:2338
+
+E3003 'SourceEndpointArn' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate41.json:1:2235
+
+E3003 'TargetEndpointArn' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate41.json:1:2235
+
+E3003 'ReplicationInstanceArn' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate41.json:1:2235
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate41.json:1:177
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate42.json:1:745
+"
+"E3003 'ReplicationInstanceArn' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate43.json:1:2461
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate43.json:1:205
+
+W2001 Parameter DMSReplicationInstanceArn not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate43.json:1:3566
+"
+"E3002 Additional properties are not allowed ('BucketName' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate44.json:1:2548
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate44.json:1:988
+"
+"E3002 Additional properties are not allowed ('ReplicationInstanceArn' was unexpected. Did you mean 'ReplicationInstanceClass'?)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate45.json:1:2504
+
+E3003 'ReplicationInstanceArn' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate45.json:1:1694
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate45.json:1:177
+"
+""
+""
+""
+""
+""
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate51.json:1:355
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1151 'vpc-1a2b3c4dx78901234f' is not a 'AWS::EC2::VPC.Id'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate66.json:1:936
+
+E3003 'Primary' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate66.json:1:474
+"
+"E3003 'Primary' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate67.json:1:419
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W2001 Parameter VpcId not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate80.json:1:223
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1020 'AvailabilityZones' is not one of ['WebAppLoadBalancer', 'WebAppInstance1', 'WebAppInstance2', 'InstanceSecurityGroup', 'WebAppInstance1ELBAttachment', 'WebAppInstance2ELBAttachment', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate92.json:1:2139
+
+E1020 'AvailabilityZones' is not one of ['WebAppLoadBalancer', 'WebAppInstance1', 'WebAppInstance2', 'InstanceSecurityGroup', 'WebAppInstance1ELBAttachment', 'WebAppInstance2ELBAttachment', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate92.json:1:2548
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1017 {'Fn::GetAtt': ['NLB', 'LoadBalancerName']} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate107.json:1:565
+
+E1017 {'Fn::GetAtt': ['NLB', 'LoadBalancerName']} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate107.json:1:781
+"
+""
+"E1017 'NetworkInterfaces' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate109.json:1:968
+
+E1017 'NetworkInterfaces' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate109.json:1:1239
+"
+""
+""
+""
+""
+""
+"E3002 Additional properties are not allowed ('CoreDefinitionIdRef' was unexpected. Did you mean 'CoreDefinitionId'?)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate115.json:1:818
+
+E3003 'CoreDefinitionId' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate115.json:1:803
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate126.json:1:463
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate127.json:1:787
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate128.json:1:414
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate129.json:1:545
+"
+"W2001 Parameter DBUsername not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate130.json:1:1061
+
+W2001 Parameter DBPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate130.json:1:1149
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate131.json:1:202
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate132.json:1:239
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate133.json:1:335
+"
+"W2001 Parameter DBPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate134.json:1:352
+
+W3011 Both 'UpdateReplacePolicy' and 'DeletionPolicy' are needed to protect resource from deletion
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate134.json:1:58
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate135.json:1:222
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate136.json:1:388
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate137.json:1:372
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate138.json:1:404
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate139.json:1:410
+"
+""
+""
+""
+""
+"W3045 'AccessControl' is a legacy property. Consider using 'AWS::S3::BucketPolicy' instead
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate144.json:1:1085
+"
+"E3511 'arn:aws:iam::account-id:role/replication-role' does not match '^arn:(aws[a-zA-Z-]*)?:iam::\\d{12}:role/[a-zA-Z_0-9+=,.@\\-_/]+$'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate145.json:1:862
+"
+"E3019 Primary identifiers {'Bucket': {'Ref': 'S3Bucket'}} should have unique values across the resources {'BucketPolicy', 'S3BucketPolicy'}
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate146.json:1:1631
+
+E3019 Primary identifiers {'Bucket': {'Ref': 'S3Bucket'}} should have unique values across the resources {'BucketPolicy', 'S3BucketPolicy'}
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate146.json:1:539
+"
+""
+""
+""
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate151.json:1:1642
+
+W2001 Parameter UserName not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate151.json:1:1176
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate152.json:1:1774
+
+W2001 Parameter Username not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate152.json:1:639
+
+W2001 Parameter DomainName not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate152.json:1:1043
+"
+"E3004 Circular Dependencies for resource DomainMembersSecurityGroup. Circular dependency with [DomainMembersSecurityGroup]
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate153.json:1:1112
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate153.json:1:987
+
+W2501 Parameter ADConnectorPassword used as Password, therefore NoEcho should be True
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate153.json:1:506
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate154.json:1:1368
+"
+"E1152 'ami-0abcdef1234567890d' is not a 'AWS::EC2::Image.Id'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate155.json:1:2303
+
+E3014 Only one of ['CidrIp', 'CidrIpv6', 'SourcePrefixListId', 'SourceSecurityGroupId', 'SourceSecurityGroupName'] is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate155.json:1:1450
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate155.json:1:832
+"
+""
+""
+""
+""
+""
+"W2001 Parameter ADDomainName not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate161.json:1:214
+
+W2001 Parameter DomainDNSIPAddress not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate161.json:1:308
+
+W2001 Parameter WindowsInstanceType not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate161.json:1:538
+
+W2001 Parameter ADDirectoryID not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate161.json:1:771
+"
+""
+""
+"E1028 'IsEmptyPrivateDNS' is not one of []
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate164.json:1:4545
+
+E1028 'IsEmptyPrivateDNS' is not one of []
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate164.json:1:5056
+
+E1028 'IsEmptyPrivateDNS' is not one of []
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate164.json:1:5518
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate164.json:1:1681
+
+W2506 'String' is not one of ['AWS::EC2::Image::Id', 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate164.json:1:1411
+
+W2506 'String' is not one of ['AWS::EC2::Image::Id', 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate164.json:1:1476
+"
+"E1020 {'Ref': 'DnsServers'} is not of type 'string' when 'Ref' is resolved
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate165.json:1:4008
+
+E1020 {'Ref': 'DnsServers'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate165.json:1:4007
+
+E1021 '' is not of type 'object'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate165.json:1:891
+
+E1021 '' is not of type 'object'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate165.json:1:1288
+
+E1021 '' is not of type 'object'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate165.json:1:1685
+
+E1021 '' is not of type 'object'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching3/json_set_2/JSONtemplate165.json:1:2082
+"

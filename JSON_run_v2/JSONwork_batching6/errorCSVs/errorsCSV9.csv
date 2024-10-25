@@ -1,0 +1,267 @@
+0
+""
+"E1010 'ServiceName' is not one of ['ServiceId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate2.json:1:1601
+"
+""
+""
+""
+""
+""
+"E1010 'Arn' is not one of ['ServiceArn', 'ServiceId', 'ServiceUrl', 'Status']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate8.json:1:1169
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1001 Additional properties are not allowed ('UpdatePolicy' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate19.json:1:1688
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate41.json:1:1235
+"
+""
+"E1010 'Endpoint.Arn' is not one of ['Id', 'ExternalId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate43.json:1:3148
+
+E1010 'Endpoint.Arn' is not one of ['Id', 'ExternalId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate43.json:1:3223
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate43.json:1:602
+"
+""
+"E1010 'ReplicationInstanceArn' is not one of ['ReplicationInstancePublicIpAddresses', 'Id', 'ReplicationInstancePrivateIpAddresses']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate45.json:1:3436
+
+E1010 'EndpointArn' is not one of ['Id', 'ExternalId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate45.json:1:3276
+
+E1010 'EndpointArn' is not one of ['Id', 'ExternalId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate45.json:1:3351
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate45.json:1:788
+"
+""
+""
+""
+""
+""
+"E3032 [{'AttributeName': 'Id', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate51.json:1:345
+"
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate52.json:1:365
+"
+"E3032 [{'AttributeName': 'PrimaryKey', 'AttributeType': 'S'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate53.json:1:149
+
+E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate53.json:1:230
+
+E3039 The set of Attributes in AttributeDefinitions: ['PrimaryKey'] and KeySchemas: ['GlobalIndexHashKey', 'GlobalIndexRangeKey', 'LocalIndexKey', 'PrimaryKey'] must match at Resources/MyDynamoDBTable/Properties
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate53.json:1:110
+"
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate54.json:1:373
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E3002 Additional properties are not allowed ('VpcId' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate80.json:1:1531
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1010 'WebServerPort' is not one of ['WebServerSecurityGroup', 'ElasticLoadBalancerSecurityGroup', 'ElasticLoadBalancer', 'LaunchConfiguration', 'AutoScalingGroup']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate100.json:1:940
+
+E1010 'WebServerPort' is not one of ['WebServerSecurityGroup', 'ElasticLoadBalancerSecurityGroup', 'ElasticLoadBalancer', 'LaunchConfiguration', 'AutoScalingGroup']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate100.json:1:996
+
+E1010 'WebServerPort' is not one of ['WebServerSecurityGroup', 'ElasticLoadBalancerSecurityGroup', 'ElasticLoadBalancer', 'LaunchConfiguration', 'AutoScalingGroup']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate100.json:1:1588
+
+E1022 'WebServerPort' is not one of ['WebServerSecurityGroup', 'ElasticLoadBalancerSecurityGroup', 'ElasticLoadBalancer', 'LaunchConfiguration', 'AutoScalingGroup']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate100.json:1:1710
+
+W2001 Parameter WebServerPort not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate100.json:1:574
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1017 'NetworkInterfaces' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate110.json:1:1045
+
+E1017 'NetworkInterfaces' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate110.json:1:1290
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate127.json:1:322
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate128.json:1:487
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate129.json:1:649
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate131.json:1:225
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate133.json:1:245
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate134.json:1:388
+"
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate136.json:1:430
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate137.json:1:476
+"
+""
+"E1019 'DBPassword' is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate139.json:1:393
+
+E2002 'AWS::SecretsManager::Secret' is not one of ['String', 'Number', 'CommaDelimitedList', 'AWS::EC2::AvailabilityZone::Name', 'AWS::EC2::Image::Id', 'AWS::EC2::Instance::Id', 'AWS::EC2::KeyPair::KeyName', 'AWS::EC2::SecurityGroup::GroupName', 'AWS::EC2::SecurityGroup::Id', 'AWS::EC2::Subnet::Id', 'AWS::EC2::VPC::Id', 'AWS::EC2::Volume::Id', 'AWS::Route53::HostedZone::Id', 'AWS::SSM::Parameter::Name', 'AWS::SSM::Parameter::Value<AWS::EC2::AvailabilityZone::Name>', 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Instance::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::KeyPair::KeyName>', 'AWS::SSM::Parameter::Value<AWS::EC2::SecurityGroup::GroupName>', 'AWS::SSM::Parameter::Value<AWS::EC2::SecurityGroup::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Subnet::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::VPC::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Volume::Id>', 'AWS::SSM::Parameter::Value<AWS::Route53::HostedZone::Id>', 'AWS::SSM::Parameter::Value<AWS::SSM::Parameter::Name>', 'AWS::SSM::Parameter::Value<Number>', 'AWS::SSM::Parameter::Value<String>', 'AWS::SSM::Parameter::Value<CommaDelimitedList>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::AvailabilityZone::Name>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Image::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Instance::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::SecurityGroup::GroupName>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::SecurityGroup::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Subnet::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::VPC::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Volume::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::Route53::HostedZone::Id>>', 'AWS::SSM::Parameter::Value<List<Number>>', 'AWS::SSM::Parameter::Value<List<String>>', 'List<AWS::EC2::AvailabilityZone::Name>', 'List<AWS::EC2::Image::Id>', 'List<AWS::EC2::Instance::Id>', 'List<AWS::EC2::SecurityGroup::GroupName>', 'List<AWS::EC2::SecurityGroup::Id>', 'List<AWS::EC2::Subnet::Id>', 'List<AWS::EC2::VPC::Id>', 'List<AWS::EC2::Volume::Id>', 'List<AWS::Route53::HostedZone::Id>', 'List<Number>', 'List<String>']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate139.json:1:647
+"
+"E3012 {'Resolve': 'ssm-secure:/path/to/DBMasterUserPassword'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate140.json:1:426
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1020 {'Ref': 'DnsIpAddresses'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate151.json:1:1408
+
+E1022 {'Fn::Join': [',', [{'Ref': 'DnsIpAddresses'}]]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate151.json:1:1367
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate151.json:1:970
+"
+"W2001 Parameter DirectoryId not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate152.json:1:157
+"
+"E1022 {'Fn::Join': [',', {'Ref': 'DnsIpAddresses'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate153.json:1:1640
+"
+"E1020 {'Ref': 'SubnetIds'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate154.json:1:1029
+"
+"E1020 '/adconnector/password' is not one of ['DomainName', 'DnsIpAddresses', 'Subnets', 'VPC', 'CreateSeamlessDomainJoin', 'CreateDomainMembersSG', 'CreateDHCPOptionSet', 'SeamlessDomainJoinRole', 'DomainMembersSecurityGroup', 'DHCPOptionSet', 'VPCDHCPOptionsAssociation', 'ADConnector', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_9/JSONtemplate155.json:1:2809
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""

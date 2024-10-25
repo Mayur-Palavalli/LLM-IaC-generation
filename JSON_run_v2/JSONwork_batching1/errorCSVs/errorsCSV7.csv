@@ -1,0 +1,287 @@
+0
+"E1010 'ServiceName' is not one of ['ServiceId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate1.json:1:845
+"
+""
+""
+""
+"E1010 'ServiceName' is not one of ['ServiceId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate5.json:1:1605
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E3016 Additional properties are not allowed ('Properties' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate18.json:1:1443
+
+E3016 Additional properties are not allowed ('Type' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate18.json:1:1400
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate33.json:1:494
+"
+""
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate35.json:1:529
+"
+""
+""
+""
+""
+"E1022 {'Type': 'AWS::DynamoDB::Table', 'Properties': {'TableName': 'Table1', 'AttributeDefinitions': [{'AttributeName': 'Id', 'AttributeType': 'S'}], 'KeySchema': [{'AttributeName': 'Id', 'KeyType': 'HASH'}], 'ProvisionedThroughput': {'ReadCapacityUnits': 5, 'WriteCapacityUnits': 5}}} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate40.json:1:289
+
+E1022 {'Type': 'AWS::DynamoDB::Table', 'Properties': {'TableName': 'Table2', 'AttributeDefinitions': [{'AttributeName': 'Id', 'AttributeType': 'S'}], 'KeySchema': [{'AttributeName': 'Id', 'KeyType': 'HASH'}], 'ProvisionedThroughput': {'ReadCapacityUnits': 5, 'WriteCapacityUnits': 5}}} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate40.json:1:570
+
+E1022 {'Type': 'AWS::DynamoDB::Table', 'Properties': {'TableName': 'Table3', 'AttributeDefinitions': [{'AttributeName': 'Id', 'AttributeType': 'S'}], 'KeySchema': [{'AttributeName': 'Id', 'KeyType': 'HASH'}], 'ProvisionedThroughput': {'ReadCapacityUnits': 5, 'WriteCapacityUnits': 5}}} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate40.json:1:851
+"
+"E1010 'ReplicationInstanceArn' is not one of ['ReplicationInstancePublicIpAddresses', 'Id', 'ReplicationInstancePrivateIpAddresses']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate41.json:1:2802
+
+E1010 'EndpointArn' is not one of ['Id', 'ExternalId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate41.json:1:2642
+
+E1010 'EndpointArn' is not one of ['Id', 'ExternalId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate41.json:1:2717
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate41.json:1:200
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate41.json:1:2004
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate42.json:1:175
+"
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate45.json:1:496
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate45.json:1:2020
+
+W2001 Parameter DBMasterUserPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate45.json:1:2983
+
+W2001 Parameter DMSSourceEndpointPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate45.json:1:3111
+"
+""
+""
+""
+""
+""
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate51.json:1:355
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E3014 Only one of ['CidrIp', 'CidrIpv6', 'SourcePrefixListId', 'SourceSecurityGroupId', 'SourceSecurityGroupName'] is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate74.json:1:849
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E3004 Circular Dependencies for resource ElasticLoadBalancer. Circular dependency with [ElasticLoadBalancer]
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate96.json:1:1150
+
+W3005 'LoadBalancerSecurityGroup' dependency already enforced by a 'Ref' at 'Resources/ElasticLoadBalancer/Properties/SecurityGroups/0'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate96.json:1:1667
+"
+""
+""
+""
+""
+""
+""
+""
+""
+"E3001 Additional properties are not allowed ('Description' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate105.json:1:2295
+"
+""
+""
+""
+""
+"E1017 'LoadBalancerAddresses' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate110.json:1:1293
+
+E1017 'LoadBalancerAddresses' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate110.json:1:1568
+"
+""
+""
+""
+""
+""
+""
+"E3002 Additional properties are not allowed ('RoleArn' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate117.json:1:881
+
+E3002 Additional properties are not allowed ('IotSiteWiseAssetModelProperty' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate117.json:1:1453
+
+E3003 'RoleArn' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate117.json:1:1363
+"
+""
+""
+"E3002 Additional properties are not allowed ('NextActivity' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate120.json:1:747
+"
+""
+""
+""
+""
+""
+""
+""
+"W2001 Parameter DatabasePassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate128.json:1:880
+"
+"E1020 'ssm-secure:/myapp/DBPassword' is not one of ['MyDBSubnetGroup', 'MyDBInstance', 'MyReadReplica', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate129.json:1:530
+"
+"E1020 {'Ref': 'DBPassword'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate130.json:1:279
+
+E2002 'AWS::SecretsManager::Secret' is not one of ['String', 'Number', 'CommaDelimitedList', 'AWS::EC2::AvailabilityZone::Name', 'AWS::EC2::Image::Id', 'AWS::EC2::Instance::Id', 'AWS::EC2::KeyPair::KeyName', 'AWS::EC2::SecurityGroup::GroupName', 'AWS::EC2::SecurityGroup::Id', 'AWS::EC2::Subnet::Id', 'AWS::EC2::VPC::Id', 'AWS::EC2::Volume::Id', 'AWS::Route53::HostedZone::Id', 'AWS::SSM::Parameter::Name', 'AWS::SSM::Parameter::Value<AWS::EC2::AvailabilityZone::Name>', 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Instance::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::KeyPair::KeyName>', 'AWS::SSM::Parameter::Value<AWS::EC2::SecurityGroup::GroupName>', 'AWS::SSM::Parameter::Value<AWS::EC2::SecurityGroup::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Subnet::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::VPC::Id>', 'AWS::SSM::Parameter::Value<AWS::EC2::Volume::Id>', 'AWS::SSM::Parameter::Value<AWS::Route53::HostedZone::Id>', 'AWS::SSM::Parameter::Value<AWS::SSM::Parameter::Name>', 'AWS::SSM::Parameter::Value<Number>', 'AWS::SSM::Parameter::Value<String>', 'AWS::SSM::Parameter::Value<CommaDelimitedList>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::AvailabilityZone::Name>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Image::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Instance::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::SecurityGroup::GroupName>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::SecurityGroup::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Subnet::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::VPC::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::EC2::Volume::Id>>', 'AWS::SSM::Parameter::Value<List<AWS::Route53::HostedZone::Id>>', 'AWS::SSM::Parameter::Value<List<Number>>', 'AWS::SSM::Parameter::Value<List<String>>', 'List<AWS::EC2::AvailabilityZone::Name>', 'List<AWS::EC2::Image::Id>', 'List<AWS::EC2::Instance::Id>', 'List<AWS::EC2::SecurityGroup::GroupName>', 'List<AWS::EC2::SecurityGroup::Id>', 'List<AWS::EC2::Subnet::Id>', 'List<AWS::EC2::VPC::Id>', 'List<AWS::EC2::Volume::Id>', 'List<AWS::Route53::HostedZone::Id>', 'List<Number>', 'List<String>']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate130.json:1:1408
+
+W2501 Parameter DBPassword used as MasterUserPassword, therefore NoEcho should be True
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate130.json:1:1393
+"
+"E3012 {'Resolve': 'ssm:/path/to/dbpassword'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate131.json:1:216
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate132.json:1:207
+
+W2501 Parameter DBPassword used as MasterUserPassword, therefore NoEcho should be True
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate132.json:1:389
+"
+""
+"W2001 Parameter DBMasterUsername not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate134.json:1:421
+
+W2001 Parameter DBMasterUserPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate134.json:1:515
+"
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate137.json:1:251
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate139.json:1:411
+
+W2001 Parameter DBMasterUserPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate139.json:1:595
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate140.json:1:391
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate151.json:1:804
+
+W8003 [{'Ref': 'AWS::NoValue'}, {'Ref': 'AWS::NoValue'}] will always return True or False
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate151.json:1:1724
+
+W8003 [{'Ref': 'AWS::NoValue'}, {'Ref': 'AWS::NoValue'}] will always return True or False
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate151.json:1:1828
+"
+""
+"E1022 {'Fn::Join': [',', {'Ref': 'CustomerDnsIps'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate153.json:1:1062
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate154.json:1:1411
+"
+"W2001 Parameter ConnectorName not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching1/json_set_7/JSONtemplate155.json:1:574
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""

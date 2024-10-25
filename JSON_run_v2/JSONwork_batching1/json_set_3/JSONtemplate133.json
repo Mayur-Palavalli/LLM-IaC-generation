@@ -1,0 +1,1 @@
+{"AWSTemplateFormatVersion": "2010-09-09", "Resources": {"MyDBInstance": {"Type": "AWS::RDS::DBInstance", "Properties": {"DBInstanceClass": "db.t2.micro", "Engine": "mysql", "MasterUsername": "{{resolve:ssm:DBMasterUsername}}", "MasterUserPassword": "{{resolve:ssm-secure:DBMasterUserPassword}}"}, "DeletionPolicy": "Snapshot", "UpdateReplacePolicy": "Snapshot"}}, "Parameters": {}}

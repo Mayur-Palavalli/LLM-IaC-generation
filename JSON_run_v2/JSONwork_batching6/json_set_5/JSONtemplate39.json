@@ -1,0 +1,1 @@
+{"AWSTemplateFormatVersion": "2010-09-09", "Resources": {"TableArray": {"Type": "AWS::CloudFormation::CustomResource", "Properties": {"ServiceToken": "<your-service-token>"}}, "Tables": {"Type": "AWS::CloudFormation::Stack", "Properties": {"TemplateURL": "https://s3.amazonaws.com/<your-bucket-name>/<your-template-file>.json", "Parameters": {}}}}}

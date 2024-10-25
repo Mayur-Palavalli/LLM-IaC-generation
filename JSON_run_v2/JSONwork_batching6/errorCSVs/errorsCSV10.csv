@@ -1,0 +1,257 @@
+0
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate28.json:1:228
+"
+""
+"E1010 'Arn' is not one of ['Id']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate30.json:1:2065
+"
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate31.json:1:458
+"
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate32.json:1:520
+"
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate33.json:1:458
+"
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate34.json:1:413
+"
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate35.json:1:357
+"
+""
+""
+""
+""
+""
+""
+""
+"E1010 'EndpointArn' is not one of ['Id', 'ExternalId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate43.json:1:3148
+
+E1010 'EndpointArn' is not one of ['Id', 'ExternalId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate43.json:1:3222
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate43.json:1:602
+"
+""
+"E1010 'ReplicationInstance.Id' is not one of ['ReplicationInstancePublicIpAddresses', 'Id', 'ReplicationInstancePrivateIpAddresses']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate45.json:1:3436
+
+E1010 'Endpoint.Id' is not one of ['Id', 'ExternalId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate45.json:1:3276
+
+E1010 'Endpoint.Id' is not one of ['Id', 'ExternalId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate45.json:1:3351
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate45.json:1:788
+"
+""
+""
+""
+""
+""
+""
+""
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate53.json:1:415
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W3005 'MyEFSFileSystem' dependency already enforced by a 'Ref' at 'Resources/MountTargetA/Properties/FileSystemId'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate73.json:1:566
+
+W3005 'MyEFSFileSystem' dependency already enforced by a 'Ref' at 'Resources/MountTargetB/Properties/FileSystemId'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate73.json:1:775
+"
+""
+""
+""
+""
+""
+""
+"W2001 Parameter VpcId not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate80.json:1:147
+"
+""
+""
+""
+"E1020 'MyLaunchTemplate.LatestVersionNumber' is not one of ['MyVPC', 'PublicSubnet1', 'PublicSubnet2', 'InternetGateway', 'AttachGateway', 'PublicRouteTable', 'DefaultPublicRoute', 'PublicSubnet1RouteTableAssociation', 'PublicSubnet2RouteTableAssociation', 'InstanceSecurityGroup', 'MyLaunchTemplate', 'MyAutoScalingGroup', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate84.json:1:2873
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1017 {'Fn::GetAtt': ['NetworkLoadBalancer', 'LoadBalancerArn']} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate110.json:1:1007
+
+E1017 {'Fn::GetAtt': ['NetworkLoadBalancer', 'LoadBalancerArn']} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate110.json:1:1250
+"
+""
+"W3005 'CoreDefinition' dependency already enforced by a 'Ref' at 'Resources/CoreDefinitionVersion/Properties/CoreDefinitionId'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate112.json:1:798
+"
+""
+"E1010 'Arn' is not one of ['Id']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate114.json:1:1430
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1019 'SecretArn' is not one of ['DBMasterUserPassword', 'MyDBSubnetGroup', 'MyDBSecurityGroup', 'MyVPC', 'MyDBInstance', 'MyReadReplicaInstance', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate129.json:1:672
+
+W2001 Parameter DBMasterUserPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate129.json:1:1417
+"
+""
+"E1020 'YourSecretsManagerArn' is not one of ['MyDBInstance', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate131.json:1:225
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate132.json:1:202
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate133.json:1:245
+"
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate136.json:1:453
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate137.json:1:453
+"
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate139.json:1:370
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate140.json:1:426
+
+W2501 Parameter DBMasterUserPassword used as MasterUserPassword, therefore NoEcho should be True
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate140.json:1:674
+"
+""
+""
+""
+""
+"W1019 Parameter 'SecureBucket' not used in 'Fn::Sub'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate145.json:1:1271
+"
+""
+""
+""
+""
+""
+"E1022 {'Fn::Join': [',', {'Ref': 'DnsIpAddresses'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate151.json:1:925
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate151.json:1:991
+"
+"W2001 Parameter DirectoryId not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate152.json:1:157
+"
+"E1022 {'Fn::Join': [',', {'Ref': 'DnsIpAddresses'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate153.json:1:1640
+"
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate155.json:1:3005
+
+W2501 Parameter AdConnectorPasswordParameter used as Password, therefore NoEcho should be True
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_10/JSONtemplate155.json:1:1317
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""

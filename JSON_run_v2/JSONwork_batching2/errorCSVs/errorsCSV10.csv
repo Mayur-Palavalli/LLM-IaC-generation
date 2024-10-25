@@ -1,0 +1,285 @@
+0
+""
+"E1010 'Arn' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate2.json:1:1654
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1020 {'Ref': 'SubnetIds'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate14.json:1:1136
+
+E1020 {'Ref': 'SubnetIds'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate14.json:1:1839
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate42.json:1:205
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate42.json:1:1782
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate43.json:1:526
+"
+"E1027 Dynamic reference 'resolve:ssm-secure:DBMasterPassword:::' to SSM secure strings can only be used in resource properties
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate44.json:1:1020
+
+E1050 ['resolve', 'ssm-secure', 'DBMasterPassword', '', '', ''] is too long (4)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate44.json:1:177
+
+E1050 '' does not match '\\d+'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate44.json:1:177
+
+E1050 ['resolve', 'ssm-secure', 'DBMasterPassword', '', '', ''] is too long (4)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate44.json:1:1020
+
+E1050 '' does not match '\\d+'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate44.json:1:1020
+"
+""
+""
+""
+""
+""
+""
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate51.json:1:365
+"
+""
+"E3039 The set of Attributes in AttributeDefinitions: ['LocalIndexKey', 'PrimaryKey', 'RangeKey'] and KeySchemas: ['GlobalIndexKey', 'LocalIndexKey', 'PrimaryKey', 'RangeKey'] must match at Resources/MyDynamoDBTable/Properties
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate53.json:1:110
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E3002 Additional properties are not allowed ('NetworkInterfaceId' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate68.json:1:702
+
+E3002 Additional properties are not allowed ('PrivateIpAddress' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate68.json:1:755
+
+E3002 Additional properties are not allowed ('NetworkInterfaceId' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate68.json:1:880
+
+E3002 Additional properties are not allowed ('PrivateIpAddress' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate68.json:1:933
+"
+""
+""
+""
+""
+""
+""
+""
+"E3002 Additional properties are not allowed ('VpcId' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate76.json:1:836
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1001 Additional properties are not allowed ('UpdatePolicy' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate88.json:1:1152
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1010 {'Fn::GetAtt': ['NLB', 'SecurityGroups']} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate106.json:1:532
+
+E1010 {'Fn::GetAtt': ['NLB', 'SecurityGroups']} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate106.json:1:724
+"
+""
+""
+"E1010 'NetworkInterfaceIds[0]' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate109.json:1:684
+
+E1010 'NetworkInterfaceIds[1]' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate109.json:1:930
+"
+"E1017 {'Fn::Select': ['0', {'Ref': 'Subnet1'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate110.json:1:986
+
+E1017 {'Fn::Select': ['1', {'Ref': 'Subnet2'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate110.json:1:1223
+"
+""
+""
+""
+"E1010 'Arn' is not one of ['Id']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate114.json:1:1043
+"
+""
+""
+""
+""
+""
+""
+""
+"E3002 Additional properties are not allowed ('Engine' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate122.json:1:418
+"
+""
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate126.json:1:326
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate126.json:1:222
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate128.json:1:398
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate128.json:1:324
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate130.json:1:573
+
+W2001 Parameter DBPasswordParameter not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate130.json:1:1340
+"
+"E1020 'mySecretName' is not one of ['MyDBInstance', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate131.json:1:256
+"
+"E1051 Dynamic reference 'resolve:secretsmanager:MySecret:SecretString:password' to secrets manager can only be used in resource properties
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate132.json:1:537
+
+W2001 Parameter DBMasterPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate132.json:1:418
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate133.json:1:287
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate135.json:1:225
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate136.json:1:434
+"
+""
+"E3682 Additional properties are not allowed (['MasterUserPassword'])
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate138.json:1:284
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate138.json:1:427
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate139.json:1:455
+
+W2001 Parameter MasterUserPasswordParam not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate139.json:1:606
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate140.json:1:434
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate151.json:1:1179
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate152.json:1:937
+
+W2001 Parameter ServiceAccountUsername not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate152.json:1:601
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate153.json:1:1659
+"
+""
+"E1020 {'Ref': 'SubnetIds'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate155.json:1:799
+"
+""
+""
+""
+""
+""
+""
+"E1022 {'Fn::Join': [',', {'Ref': 'DnsIpAddresses'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching2/json_set_10/JSONtemplate162.json:1:1364
+"
+""
+""
+""

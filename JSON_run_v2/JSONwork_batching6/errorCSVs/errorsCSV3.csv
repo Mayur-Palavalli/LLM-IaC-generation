@@ -1,0 +1,417 @@
+0
+""
+""
+""
+""
+"E3037 [{'Ref': 'Subnet'}, {'Ref': 'Subnet'}] has non-unique elements
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate5.json:1:870
+"
+""
+""
+""
+"E3012 {'GetAtt': ['InstanceRoleArn', 'Arn']} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate9.json:1:962
+
+W2001 Parameter InstanceRoleArn not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate9.json:1:467
+"
+""
+""
+""
+""
+"E3006 Resource type 'AWS::AutoScaling::AutoScalingNotification' does not exist in 'us-east-1'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate14.json:1:3337
+"
+""
+"E1001 Additional properties are not allowed ('UpdatePolicy' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate16.json:1:1340
+"
+""
+""
+"E3001 'Type' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate19.json:1:1727
+
+E3001 Additional properties are not allowed ('AutoScalingRollingUpdate' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate19.json:1:1744
+"
+"E1001 Additional properties are not allowed ('UpdatePolicy' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate20.json:1:1848
+"
+""
+"E1020 'SubnetId' is not one of ['SampleLoadBalancer', 'SampleLaunchConfiguration', 'InstanceSecurityGroup', 'SampleAutoScalingGroup', 'ScaleUpPolicy', 'ScaleDownPolicy', 'ScheduledActionScaleUp', 'ScheduledActionScaleDown', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate22.json:1:1108
+"
+""
+""
+""
+""
+""
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate29.json:1:387
+"
+""
+""
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate32.json:1:459
+"
+""
+""
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate35.json:1:359
+"
+""
+""
+"E1020 'Table1' is not one of ['DynamoDBTableLoop', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate38.json:1:451
+
+E1020 'Table2' is not one of ['DynamoDBTableLoop', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate38.json:1:470
+
+E1020 'Table3' is not one of ['DynamoDBTableLoop', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate38.json:1:489
+"
+""
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate41.json:1:989
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate42.json:1:195
+"
+"E1010 'EndpointArn' is not one of ['Id', 'ExternalId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate43.json:1:3148
+
+E1010 'EndpointArn' is not one of ['Id', 'ExternalId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate43.json:1:3222
+
+E3003 'ReplicationInstanceArn' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate43.json:1:3035
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate43.json:1:602
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate44.json:1:868
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate45.json:1:788
+"
+""
+""
+""
+""
+""
+"E3032 [{'AttributeName': 'Id', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate51.json:1:409
+
+E3039 The set of Attributes in AttributeDefinitions: ['GlobalIndexHashKey', 'GlobalIndexRangeKey', 'Id', 'LocalIndexKey'] and KeySchemas: ['GlobalIndexHashKey', 'Id', 'LocalIndexKey'] must match at Resources/DynamoDBTable/Properties
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate51.json:1:108
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1151 'vpc-xxxxxxxx' is not a 'AWS::EC2::VPC.Id'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate67.json:1:1643
+
+E3003 'Primary' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate67.json:1:757
+"
+""
+""
+"W3005 'MyNetworkInterface' dependency already enforced by a 'Ref' at 'Resources/MyEC2Instance/Properties/NetworkInterfaces/0/NetworkInterfaceId'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate70.json:1:1209
+"
+""
+""
+"W3005 'MyEFSFileSystem' dependency already enforced by a 'Ref' at 'Resources/MountTargetA/Properties/FileSystemId'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate73.json:1:566
+
+W3005 'MyEFSFileSystem' dependency already enforced by a 'Ref' at 'Resources/MountTargetB/Properties/FileSystemId'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate73.json:1:775
+"
+""
+"W3005 'MyEFSFileSystem' dependency already enforced by a 'Ref' at 'Resources/MyEFSMountTargetAZ1/Properties/FileSystemId'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate75.json:1:444
+
+W3005 'MyEFSFileSystem' dependency already enforced by a 'Ref' at 'Resources/MyEFSMountTargetAZ2/Properties/FileSystemId'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate75.json:1:678
+"
+""
+""
+"E1020 'VpcId' is not one of ['EKSClusterRole', 'EKSCluster', 'EKSEC2Role', 'EKSEC2InstanceProfile', 'NodeGroupLaunchTemplate', 'SecurityGroup1', 'SecurityGroup2', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate78.json:1:1841
+
+E1020 'VpcId' is not one of ['EKSClusterRole', 'EKSCluster', 'EKSEC2Role', 'EKSEC2InstanceProfile', 'NodeGroupLaunchTemplate', 'SecurityGroup1', 'SecurityGroup2', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate78.json:1:1992
+"
+""
+"W2001 Parameter VpcId not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate80.json:1:147
+"
+""
+""
+""
+"E3002 Additional properties are not allowed ('Version' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate84.json:1:2235
+
+E3003 'Version' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate84.json:1:2769
+"
+""
+""
+""
+"E1017 {'Fn::Select': ['1', {'Fn::GetAZs': ''}]} is not of type 'array' when 'Fn::Select' is resolved
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate88.json:1:375
+"
+""
+""
+"E1020 {'Ref': 'Subnets'} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate91.json:1:987
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W3045 'AccessControl' is a legacy property. Consider using 'AWS::S3::BucketPolicy' instead
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate103.json:1:170
+"
+""
+""
+""
+""
+""
+""
+"E1017 'NetworkInterfaces' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate110.json:1:1043
+
+E1017 'NetworkInterfaces' is not one of ['CanonicalHostedZoneID', 'DNSName', 'EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic', 'IpAddressType', 'LoadBalancerArn', 'LoadBalancerAttributes', 'LoadBalancerFullName', 'LoadBalancerName', 'Name', 'Scheme', 'SecurityGroups', 'SubnetMappings', 'Subnets', 'Tags', 'Type']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate110.json:1:1286
+"
+""
+""
+""
+""
+""
+""
+""
+"E3002 Additional properties are not allowed ('Action' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate118.json:1:956
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate120.json:1:897
+"
+""
+""
+"E1020 'VpcId' is not one of ['NeptuneCluster', 'NeptuneInstance', 'NeptuneSecurityGroup', 'NeptuneSubnetGroup', 'CloudWatchAlarm', 'SNSTopic', 'SNSSubscription', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate123.json:1:810
+"
+"W2001 Parameter SNSTopicARN not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate124.json:1:214
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate126.json:1:552
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate127.json:1:299
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate128.json:1:464
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate129.json:1:649
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate130.json:1:795
+
+W2001 Parameter DBPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate130.json:1:1666
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate131.json:1:202
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate132.json:1:202
+"
+"W2001 Parameter DBMasterUsername not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate133.json:1:449
+
+W2001 Parameter DBMasterPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate133.json:1:543
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate134.json:1:388
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate135.json:1:222
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate136.json:1:430
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate137.json:1:476
+
+W2001 Parameter DBPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate137.json:1:703
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate138.json:1:470
+"
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate140.json:1:426
+"
+""
+""
+"E3045 A bucket with 'AccessControl' set should also have at least one 'OwnershipControl' configured
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate143.json:1:1157
+
+W3045 'AccessControl' is a legacy property. Consider using 'AWS::S3::BucketPolicy' instead
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate143.json:1:1207
+"
+""
+""
+""
+""
+""
+""
+""
+"E1022 {'Fn::Join': [',', {'Ref': 'DnsIpAddresses'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate151.json:1:813
+
+E1022 {'Fn::Join': [',', {'Ref': 'DnsIpAddresses'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate151.json:1:1277
+
+W2501 Password shouldn't be hardcoded for Resources/ADConnector/Properties/Password
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate151.json:1:879
+"
+"E3004 Circular Dependencies for resource DomainMembersSecurityGroup. Circular dependency with [DomainMembersSecurityGroup]
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate152.json:1:1066
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate152.json:1:812
+
+W2001 Parameter DirectoryId not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate152.json:1:157
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate153.json:1:1506
+
+W2001 Parameter UserName not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate153.json:1:636
+
+W8001 Condition CreateSeamlessDomainJoinCondition not used
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate153.json:1:2340
+"
+"E1151 'vpc-XXXXX' is not a 'AWS::EC2::VPC.Id'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate154.json:1:798
+
+E1151 'vpc-XXXXX' is not a 'AWS::EC2::VPC.Id'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate154.json:1:1259
+
+E1151 'vpc-XXXXX' is not a 'AWS::EC2::VPC.Id'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate154.json:1:1733
+
+E3002 Additional properties are not allowed ('Tags' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate154.json:1:1040
+
+E3002 Additional properties are not allowed ('ConnectSettings' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate154.json:1:868
+
+E3037 ['subnet-XXXXX', 'subnet-XXXXX'] has non-unique elements
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate154.json:1:820
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate154.json:1:732
+
+W2001 Parameter ConnectorDnsIpAddresses not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate154.json:1:195
+"
+"W2001 Parameter Subnets not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate155.json:1:497
+"
+""
+""
+""
+""
+""
+"E1020 {'Ref': 'ADDomainName'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate161.json:1:1873
+
+E1020 {'Ref': 'ADDomainName'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate161.json:1:1913
+
+E1020 {'Ref': 'DomainOU'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate161.json:1:2000
+
+E1020 {'Ref': 'AWS::Region'} is not of type 'array' when 'Ref' is resolved
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate161.json:1:2053
+
+E1020 {'Ref': 'ADDomainName'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate161.json:1:2293
+
+E1020 {'Ref': 'ADDomainName'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate161.json:1:2333
+
+E1020 {'Ref': 'DomainOU'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate161.json:1:2420
+
+E1020 {'Ref': 'AWS::Region'} is not of type 'array' when 'Ref' is resolved
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate161.json:1:2473
+
+E1020 {'Ref': 'ADDomainName'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate161.json:1:2757
+
+E1020 {'Ref': 'ADDomainName'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate161.json:1:2797
+
+E1020 {'Ref': 'DomainOU'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate161.json:1:2884
+
+E1020 {'Ref': 'AWS::Region'} is not of type 'array' when 'Ref' is resolved
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate161.json:1:2937
+"
+"E1020 {'Ref': 'ADDomainId'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate162.json:1:3158
+
+E1020 {'Ref': 'ADDomainName'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate162.json:1:3196
+
+E1020 {'Ref': 'ADDomainId'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate162.json:1:3528
+
+E1020 {'Ref': 'ADDomainName'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate162.json:1:3566
+
+E1020 {'Ref': 'ADDomainId'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate162.json:1:3853
+
+E1020 {'Ref': 'ADDomainName'} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate162.json:1:3891
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching6/json_set_3/JSONtemplate163.json:1:158
+"
+""
+""

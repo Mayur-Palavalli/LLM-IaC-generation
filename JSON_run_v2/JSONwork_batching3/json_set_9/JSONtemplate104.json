@@ -1,0 +1,1 @@
+{"AWSTemplateFormatVersion": "2010-09-09", "Description": "A simple AWS CloudFormation template", "Resources": {"MyInstance": {"Type": "AWS::EC2::Instance", "Properties": {"InstanceType": "t2.micro", "ImageId": "ami-0abcdef1234567890", "SecurityGroups": ["default"]}}}}

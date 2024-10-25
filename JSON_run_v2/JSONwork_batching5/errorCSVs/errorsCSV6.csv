@@ -1,0 +1,259 @@
+0
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1020 'VpcId' is not one of ['OperatorEmail', 'InstanceType', 'KeyName', 'SubnetId1', 'SubnetId2', 'WebServerSecurityGroup', 'WebServerLaunchConfiguration', 'WebServerAutoScalingGroup', 'WebAppELB', 'WebAppELBTargetGroup', 'CPUAlarmHigh', 'CPUAlarmLow', 'NotificationTopic', 'WebServerScaleUpPolicy', 'WebServerScaleDownPolicy', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate13.json:1:2777
+
+E3004 Circular Dependencies for resource WebServerAutoScalingGroup. Circular dependency with [WebAppELBTargetGroup]
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate13.json:1:1965
+
+E3004 Circular Dependencies for resource WebAppELBTargetGroup. Circular dependency with [WebServerAutoScalingGroup]
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate13.json:1:2675
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate31.json:1:353
+"
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate32.json:1:469
+"
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate33.json:1:455
+"
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate34.json:1:459
+"
+"E1010 'Arn' is not one of ['PolicyArn', 'AttachmentCount', 'CreateDate', 'DefaultVersionId', 'IsAttachable', 'PermissionsBoundaryUsageCount', 'PolicyId', 'UpdateDate']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate35.json:1:451
+"
+""
+""
+""
+"E2531 Runtime 'nodejs14.x' was deprecated on '2023-12-04'. Creation was disabled on '2024-07-09' and update on '2025-02-28'. Please consider updating to 'nodejs20.x'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate39.json:1:1818
+"
+""
+""
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate43.json:1:808
+"
+""
+"E3003 'ReplicationInstanceArn' is a required property
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate45.json:1:2403
+
+W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate45.json:1:177
+"
+""
+""
+""
+""
+""
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate51.json:1:423
+"
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate52.json:1:355
+"
+""
+"E3032 [{'AttributeName': 'PrimaryKey', 'KeyType': 'HASH'}] is too short (2)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate54.json:1:419
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W2506 'String' is not one of ['AWS::EC2::Image::Id', 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate76.json:1:729
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1001 Additional properties are not allowed ('UpdatePolicy' was unexpected)
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate87.json:1:914
+"
+""
+"E1015 {'Fn::GetAZs': ''} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate89.json:1:651
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"E1010 'Arn' is not one of ['Id']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate112.json:1:2243
+
+E1010 'Arn' is not one of ['Id']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate112.json:1:1038
+
+E1010 'Arn' is not one of ['Id']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate112.json:1:1993
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W2001 Parameter DBMasterUser not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate125.json:1:4037
+
+W2001 Parameter DBMasterPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate125.json:1:4324
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate126.json:1:322
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate127.json:1:975
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate129.json:1:491
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate130.json:1:568
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate131.json:1:243
+"
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate132.json:1:450
+"
+"W2001 Parameter MySecretPassword not used.
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate133.json:1:426
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate135.json:1:294
+
+W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate135.json:1:194
+"
+""
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate137.json:1:468
+"
+"W2501 Password shouldn't be hardcoded for Resources/MyDBInstance/Properties/MasterUserPassword
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate138.json:1:437
+"
+"E1020 'DBMasterUserPassword' is not one of ['MyDBParameterGroup', 'MyDBInstance', 'AWS::AccountId', 'AWS::NoValue', 'AWS::NotificationARNs', 'AWS::Partition', 'AWS::Region', 'AWS::StackId', 'AWS::StackName', 'AWS::URLSuffix']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate139.json:1:446
+"
+"W1020 'Fn::Sub' isn't needed because there are no variables
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate140.json:1:459
+"
+""
+""
+""
+""
+""
+""
+""
+""
+"E1019 'CloudFrontOriginAccessIdentityConfig.Id' is not one of ['Id', 'S3CanonicalUserId']
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate149.json:1:1105
+"
+""
+"E1022 {'Fn::Join': [',', {'Ref': 'ADConnectorDnsIpAddresses'}]} is not of type 'array'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate151.json:1:2157
+"
+"E3012 {'DynamicRef': {'Service': 'secretsmanager', 'ReferenceKey': {'Ref': 'DirectoryPassword'}}} is not of type 'string'
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate152.json:1:1005
+
+W8003 [True, True] will always return True or False
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate152.json:1:2315
+"
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+"W1011 Use dynamic references over parameters for secrets
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate163.json:1:290
+
+W2501 Parameter DirectoryServicePassword used as Password, therefore NoEcho should be True
+/Users/map/Documents/JSON_run_v2/JSONwork_batching5/json_set_6/JSONtemplate163.json:1:3715
+"
+""
+""

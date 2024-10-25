@@ -1,0 +1,1 @@
+{"AWSTemplateFormatVersion": "2010-09-09", "Resources": {"DynamoDBTablesStack": {"Type": "AWS::CloudFormation::Stack", "Properties": {"TemplateURL": "https://s3.amazonaws.com/mybucket/DynamoDBTablesTemplate.json", "Parameters": {"Indexes": {"Ref": "IndexesParameter"}}}}}, "Parameters": {"IndexesParameter": {"Type": "String", "Default": "0,1,2,3,4"}}}
